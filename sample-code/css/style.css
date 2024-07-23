@@ -1,7 +1,7 @@
 .socialpost-wrapper {
     overflow: hidden;
-    width: 210mm;
-    height: 297mm;
+    width: 1024px;
+    height: 1024px;
     position: relative;
     background: #db0808;
 }
@@ -10,7 +10,7 @@
     height: 100%;
     overflow: hidden;
     position: relative;
-    background: #2012df;
+    background: #ffffff;
 }
 /* Global styles */
 body {
@@ -27,39 +27,43 @@ body {
 /* Organization logo */
 .org-logo {
     position: absolute;
-    left: 0mm;
-    width:60mm;
+    left: 202mm;
+    width: 60mm;
     height: 30mm;
-    bottom: 0mm;
+    bottom: 246mm;
 }
-.org-logo img{
-    height :100%;
-    width: 100%;
+.org-logo img {
+    top: 5mm;
+    left: 2mm;
+    height: 73%;
+    width: 109%;
+    position: absolute;
 }
 /* Organization name */
 .org-name h2 {
+    color: #fff;
     position: absolute;
-    right: 0mm;
-   top: 270mm;
+    right: 118mm;
+    top: 86mm;
     height: 20mm;
     width: 140mm;
     font-size: 24px;
-    
 }
 .org-address {
     position: absolute;
     background-color: black;
-    right:0mm;
-    top:236mm;
-    width:110mm;
-    height:20mm;
-   
+    right: 0mm;
+    top: 219mm;
+    width: 110mm;
+    height: 26mm;
 }
-.org-address p{
-    margin-left:20mm;
+.org-address p {
+    top: 10mm;
+    margin-left: 20mm;
+    position: absolute;
     text-align: left;
-    font-size:12px;
-    color:#ffffff;
+    font-size: 12px;
+    color: #ffffff;
     font-weight: bolder;
 }
 /* Organization email, phone, fax, and website */
@@ -72,9 +76,11 @@ body {
     margin: 5mm 0;
 }
 .org-email {
+    font-size: 20px;
+    color: #fff;
     position: absolute;
-    right: 20mm;
-    bottom: 0mm;
+    right: 18mm;
+    bottom: -56mm;
     height: 5mm;
     width: 50mm;
 }
@@ -82,9 +88,11 @@ body {
     font-size: 1.5em;
 }
 .org-website {
+    font-size: 20px;
+    color: #fff;
     position: absolute;
-    right: 75mm;
-    bottom: 0mm;
+    right: 72mm;
+    bottom: -55mm;
     height: 5mm;
     width: 50mm;
 }
@@ -93,15 +101,20 @@ body {
 }
 .org-phone {
     position: absolute;
-    right:0mm;
-    top:250mm;
-    width:110mm;
-    height:20mm;
-    font-size:42px;
-    color:red;
+    right: 2mm;
+    top: 238mm;
+    width: 110mm;
+    height: 20mm;
+    font-size: 42px;
+    color: red;
     text-align: justify;
     font-weight: bolder;
-   
+}
+.org-phone1 {
+    height: 71px;
+    position: absolute;
+    right: 60mm;
+    top: -1mm;
 }
 .org-phone i {
     font-size: 1.5em;
@@ -117,11 +130,10 @@ body {
     width: 100%;
 }
 .background-image img{
-    position:absolute;
-    left:0mm;
-    top:00mm;
-    width:210mm;
-    height:120mm;
+    position: absolute;
+    left: 0mm;
+    top: 00mm;
+    width: 271mm;
 }
 .image img{
     position:absolute;
@@ -151,36 +163,47 @@ body {
     font-size: 36px;
    color:#ffffff;
 }
-.heading {
-    position:absolute;
-    left:0mm;
-    top:40mm;
-    width:120mm;
-    height:30mm;
+.heading-first {
+    position: absolute;
+    left: 13mm;
+    top: 33mm;
+    width: 120mm;
+    height: 30mm;
     text-align: left;
     font-size: 56px;
     font-weight: bolder;
-    color:#FFDC5B;
+    color: #fff;
 }
-.sub-heading{
-    position:absolute;
-    left:0mm;
-    top:120mm;
-    width:90mm;
-    height:10mm;
+.heading {
+    position: absolute;
+    left: 14mm;
+    top: 48mm;
+    width: 120mm;
+    height: 30mm;
+    text-align: left;
+    font-size: 56px;
+    font-weight: bolder;
+    color: #FFDC5B;
+}
+.sub-heading {
+    position: absolute;
+    left: 20mm;
+    top: 100mm;
+    width: 90mm;
+    height: 10mm;
     font-weight: bold;
     text-align: left;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .description {
-    position:absolute;
-    left:0mm;
-    top:130mm;
-    width:90mm;
-    height:50mm;
+    position: absolute;
+    left: 5mm;
+    top: 112mm;
+    width: 137mm;
+    height: 50mm;
     text-align: justify;
-    font-size: 16px;
+    font-size: 19px;
 }
 /* Services heading */
 .services-heading {
@@ -189,13 +212,13 @@ body {
 
 /* Services */
 .services {
-    position:absolute;
-    background-color:black;
-    right:0mm;
-    top:125mm;
-    width:110mm;
-    height:55mm;
-    color:#ffffff;
+    position: absolute;
+    background-color: black;
+    right: 0mm;
+    top: 106mm;
+    width: 110mm;
+    height: 59mm;
+    color: #ffffff;
 }
 
 /* Service */
@@ -207,14 +230,20 @@ body {
 
 /* Service name */
 .service-name {
+    margin-top: 1mm;
     position: absolute;
-    margin-left:20mm;
+    margin-left: 19mm;
     font-weight: bold;
     text-align: left;
     font-size: 24px;
-    color:#ffffff;
+    color: #FFDC5B;
 }
-
+.service-image {
+    height: 28mm;
+    position: absolute;
+    left: -4mm;
+    top: 10mm;
+}
 /* Service image */
 .service-image i {
     font-size: 2em;
@@ -222,26 +251,59 @@ body {
 
 /* Service description */
 .service-description {
-    margin-top: 10mm;
+    margin-top: 19mm;
     position: absolute;
     text-align: left;
     font-size: 18px;
-    color:#ffffff;
-    margin-left:20mm;
+    color: #ffffff;
+    margin-left: 19mm;
     text-wrap: balance;
+}
+.contact-us {
+    /* background: #FFDC5B;
+    position: absolute;
+    height: 10mm;
+    width: 90mm;
+    top: 262mm;
+    left: 0mm; */
+    color: white;
+    left: -55mm;
+    /* right: 4mm; */
+    text-align: center;
+    top: 246mm;
+    position: absolute;
+    /* background-color: black; */
+    size: 54px;
+    border-right: 59pt solid transparent;
+    border-top: 39.75pt solid #FFDC5B;
+    border-left: 361pt solid #FFDC5B;
+}
+.contact-us .p {
+    text-emphasis-color: black;
+}
+
+.contact {
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    bottom: 42px;
+    left: 70px;
 }
 
 /* Features heading */
 .features-heading {
-	    position:absolute;
-    left:0mm;
-    top:180mm;
-    width:90mm;
-    height:10mm;
+    position: absolute;
+    left: 20mm;
+    top: 164mm;
+    width: 90mm;
+    height: 10mm;
     font-weight: bold;
     text-align: left;
-    font-size: 24px;
+    font-size: 28px;
 }
+
+
+
 
 /* Features */
 .features {
@@ -260,12 +322,117 @@ body {
     text-align: left;
     font-size: 18px;
 }
+.feature-name {
+    position: relative;
+    font-weight: 100;
+    margin-left: 13mm;
+    top: -18mm;
+}
+.feature-name1 {
+    font-size: 31px;
+    position: absolute;
+    top: -17mm;
+    left: 20mm;
+}
+.feature-name2 {
+    font-size: 31px;
+    position: absolute;
+    top: -7mm;
+    left: 20mm;
+}
+.feature-name3 {
+    font-size: 31px;
+    position: absolute;
+    top: 3mm;
+    right: -2mm;
+}
+.feature-name4 {
+    font-size: 31px;
+    position: absolute;
+    top: 13mm;
+    left: 20mm;
+}
+.feature-name5 {
+    font-size: 31px;
+    position: absolute;
+    top: 23mm;
+    right: -24mm;
+}
+.feature-name6 {
+    font-size: 31px;
+    position: absolute;
+    top: 33mm;
+    left: 19mm;
+}
+.feature-name7 {
+    font-size: 31px;
+    position: absolute;
+    top: 43mm;
+    left: 19mm;
+}
+.feature-imagee {
+    font-size: 31px;
+    position: absolute;
+    top: 161mm;
+    left: 8mm;
+}
+.feature-image1 {
+    font-size: 31px;
+    position: absolute;
+    top: -17mm;
+    left: 7mm;
+}
+.feature-image2 {
+    font-size: 31px;
+    position: absolute;
+    top: -8mm;
+    left: 7mm;
+}
+.feature-image3 {
+    font-size: 31px;
+    position: absolute;
+    top: 2mm;
+    left: 7mm;
+}
+.feature-image4 {
+    font-size: 31px;
+    position: absolute;
+    top: 12mm;
+    left: 7mm;
+}
+.feature-image5 {
+    font-size: 31px;
+    position: absolute;
+    top: 23mm;
+    right: 73mm;
+}
+.feature-image6 {
+    font-size: 31px;
+    position: absolute;
+    top: 33mm;
+    left: 6mm;
+}
+.feature-image7 {
+    font-size: 31px;
+    position: absolute;
+    top: 44mm;
+    left: 7mm;
+}
+.feature {
+    width: 90mm;
+    height: 8mm;
+    font-weight: 200;
+    text-align: left;
+    font-size: 25px;
+}
+
+
 
 /* Feature name */
 .feature-name {
-    font-weight:100;
+    font-weight: 100;
+    margin-left: 13mm;
 }
-
 /* Feature image */
 .feature-image i {
     font-size: 2em;
@@ -279,26 +446,44 @@ body {
 /* Terms heading */
 .terms-heading {
     position: absolute;
-    top: 183mm;
+    top: 167mm;
     height: 10mm;
     right: 0mm;
-    width:110mm;
+    width: 110mm;
     font-weight: bold;
-    margin-left:20mm;
+    margin-left: 20mm;
     text-align: center;
-    font-size: 24px;
-    background-color:black;
-    color:#ffffff;
+    font-size: 28px;
+    background-color: black;
+    color: #FFDC5B;
 }
 
 /* Terms */
 .terms {
     position: absolute;
-    background-color:black;
-    right:0mm;
-    top:193mm;
-    width:110mm;
-    height:40mm;
+    background-color: black;
+    right: 0mm;
+    top: 177mm;
+    width: 110mm;
+    height: 40mm;
+}
+.term-image1 {
+    position: absolute;
+    top: 2mm;
+    left: 11mm;
+    height: 21px;
+}
+.term-image2 {
+    height: 6mm;
+    position: absolute;
+    top: 7mm;
+    left: 11mm;
+}
+.term-image3 {
+    position: absolute;
+    top: 12mm;
+    left: 11mm;
+    height: 25px;
 }
     
 
@@ -308,20 +493,199 @@ body {
     margin-top:5mm;
    
 }
+.icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
 .term-name {
     text-align: left;
     font-size: 18px;
-    color:#ffffff;
-    margin-left:20mm;
+    color: #ffffff;
+    margin-left: 28mm;
     text-wrap: balance;
-   
+    /* position: absolute; */
+    margin-top: -2mm;
 }
+.bi-wifi::before {
+    content: "\f61c";
+    position: absolute;
+    left: 1mm;
+    top: -2mm;
+}
+.fa-list:before {
+    color: black;
+    content: "\f03a";
+    position: absolute;
+    left: -159mm;
+    top: 75mm;
+}
+.term-image-MEMBERSHIP {
+    height: 28mm;
+    position: absolute;
+    top: 12px;
+    left: -27px;
+}
+
+/* .fa-desktop-alt:before, .fa-desktop:before {
+    content: "\f390";
+    position: absolute;
+    top: 46mm;
+    left: -98mm;
+}
+.fa-robot:before {
+    left: -99mm;
+    top: 55mm;
+    content: "\f544";
+    position: absolute;
+}
+.fa-book:before {
+    left: -97mm;
+    content: "\f02d";
+    position: absolute;
+    top: 6mm;
+}
+.fa-laptop:before {
+    top: 26mm;
+    left: -98mm;
+    content: "\f109";
+    position: absolute;
+}
+.fa-laptop2:before {
+    top: 26mm;
+    left: -98mm;
+    content: "\f109";
+    position: absolute;
+}
+.fa-chalkboard-teacher:before {
+    top: 16mm;
+    content: "\f51c";
+    position: absolute;
+    left: -99mm;
+}
+.fa-wifi:before {
+    top: -4mm;
+    left: -98mm;
+    content: "\f1eb";
+    position: absolute;
+}
+.fa-list-squares:before, .fa-list:before {
+    top: 36mm;
+    left: -98mm;
+    content: "\f03a";
+    position: absolute;
+} */
+.bi-star:before {
+    content: "\f005";
+    position: absolute;
+    top: -14mm;
+    left: -97mm;
+}
+.fa-star:before {
+    top: -11mm;
+    left: -158mm;
+    content: "\f005";
+    position: absolute;
+    color: #FFDC5B;
+}
+.location-icon {
+    color: #007bff; /* Change color */
+    font-size: 24px; /* Adjust size */
+    margin-right: 8px; /* Space between icon and text */
+}
+
+
+        /* Base class for all icons */
+        .icon {
+            width: 24px; /* Width of the icon */
+            height: 24px; /* Height of the icon */
+            display: inline-block; /* Ensure it behaves like an inline element but allows setting width/height */
+            background-image: url('icons.png'); /* Path to your sprite image */
+            background-size: cover; /* Ensure the entire image is used */
+            margin-right: 10px; /* Add space between the icon and the text */
+        }
+
+        /* Specific class for the "Free MCQ Bank (AI Based)" icon */
+        .icon-mcq-bank {
+            background-position: -48px -24px; /* Adjust according to the position of your icon in the sprite */
+        }
+
+        /* Class for aligning icons and text */
+        .icon-container {
+            display: flex; /* Use flexbox to align items */
+            align-items: center; /* Center items vertically */
+            margin-bottom: 10px; /* Add space between each row */
+        }
+
 /* Term image */
 .term-image i {
     font-size: 2em;
 }
+.fa-map-marker-alt:before {
+    font-size: 17mm;
+    top: 50mm;
+    left: 2mm;
+    content: "\f3c5";
+    position: absolute;
+}
+.fa-dollar-sign:before {
+    color: #FFDC5B;
+    left: 3mm;
+    top: 7mm;
+    content: "\f155";
+    position: absolute;
+    font-size: 18mm;
+}.fa-telegram:before {
+    color: #FFDC5B;
+    left: 1mm;
+    top: -53mm;
+    content: "\f155";
+    position: absolute;
+    font-size: 18mm;
+}
+.Location {
+    position: absolute;
+    top: 219mm;
+    left: 182mm;
+    color: #FFDC5B;
+    font-size: 24px;
+}
+.Location-imagee {
+    width: 20mm;
+    position: absolute;
+    top: 221mm;
+    right: 96mm;
+}
+.fa-map-marker-alt:before {
+    font-size: 17mm;
+    top: 50mm;
+    left: 2mm;
+    content: "\f3c5";
+    position: absolute;
+    color: #FFDC5B;
+}
+.footer {
+    position: absolute;
+    background-color: #2949c9;
+    height: 10mm;
+    left: -160mm;
+    top: 84mm;
+    width: 283mm;
+    height: 13mm;
+}
+
+
 
 /* Term description */
 .term-description {
     margin-top: 5mm;
 }
+font-size: 30px;
+    color: black;
+    position: absolute;
+    bottom: 42px;
+    left: 70px;
