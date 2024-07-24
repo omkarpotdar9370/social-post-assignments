@@ -27,14 +27,14 @@ body {
 /* Organization logo */
 .org-logo {
     position: absolute;
-    left: 202mm;
-    width: 60mm;
-    height: 30mm;
-    bottom: 246mm;
+    left: 763.46px;
+    width: 226.77px;
+    height: 113.39px;
+    bottom: 929.76px;
 }
 .org-logo img {
-    top: 5mm;
-    left: 2mm;
+    top: 18.9px;
+    left: 7.56px;
     height: 73%;
     width: 109%;
     position: absolute;
@@ -43,23 +43,23 @@ body {
 .org-name h2 {
     color: #fff;
     position: absolute;
-    right: 118mm;
-    top: 86mm;
-    height: 20mm;
-    width: 140mm;
+    right: 445.98px;
+    top: 325.04px;
+    height: 75.59px;
+    width: 529.13px;
     font-size: 24px;
 }
 .org-address {
     position: absolute;
     background-color: black;
-    right: 0mm;
-    top: 219mm;
-    width: 110mm;
-    height: 26mm;
+    right: 0px;
+    top: 827.72px;
+    width: 415.75px;
+    height: 98.27px;
 }
 .org-address p {
-    top: 10mm;
-    margin-left: 20mm;
+    top: 37.8px;
+    margin-left: 75.59px;
     position: absolute;
     text-align: left;
     font-size: 12px;
@@ -73,16 +73,16 @@ body {
 .org-alternate-phone,
 .org-fax,
 .org-website {
-    margin: 5mm 0;
+    margin: 18.9px 0;
 }
 .org-email {
     font-size: 20px;
     color: #fff;
     position: absolute;
-    right: 18mm;
-    bottom: -56mm;
-    height: 5mm;
-    width: 50mm;
+    right: 68.03px;
+    bottom: -211.65px;
+    height: 18.9px;
+    width: 188.98px;
 }
 .org-email i {
     font-size: 1.5em;
@@ -91,20 +91,20 @@ body {
     font-size: 20px;
     color: #fff;
     position: absolute;
-    right: 72mm;
-    bottom: -55mm;
-    height: 5mm;
-    width: 50mm;
+    right: 272.13px;
+    bottom: -207.87px;
+    height: 18.9px;
+    width: 188.98px;
 }
 .org-website i {
     font-size: 1.5em;
 }
 .org-phone {
     position: absolute;
-    right: 2mm;
-    top: 238mm;
-    width: 110mm;
-    height: 20mm;
+    right: 7.56px;
+    top: 899.53px;
+    width: 415.75px;
+    height: 75.59px;
     font-size: 42px;
     color: red;
     text-align: justify;
@@ -113,8 +113,8 @@ body {
 .org-phone1 {
     height: 71px;
     position: absolute;
-    right: 60mm;
-    top: -1mm;
+    right: 226.77px;
+    top: -3.78px;
 }
 .org-phone i {
     font-size: 1.5em;
@@ -131,16 +131,16 @@ body {
 }
 .background-image img{
     position: absolute;
-    left: 0mm;
-    top: 00mm;
-    width: 271mm;
+    left: 0px;
+    top: 00px;
+    width: 1024.25px;
 }
 .image img{
     position:absolute;
-    left:0mm;
-    top:00mm;
-    width:120mm;
-    height:30mm;
+    left:0px;
+    top: 0px;;
+    width:453.54px;
+    height:113.39px;
 }
 /* Heading, sub-heading, description, punchlines, offerlines */
 .heading,
@@ -154,10 +154,10 @@ body {
 }
 .punchline1{
     position:absolute;
-    left:0mm;
-    top:30mm;
-    width:120mm;
-    height:10mm;
+    left:0px;
+    top:113.39px;
+    width:453.54px;
+    height:37.8px;
     font-weight: bold;
     text-align: center;
     font-size: 36px;
@@ -165,10 +165,10 @@ body {
 }
 .heading-first {
     position: absolute;
-    left: 13mm;
-    top: 33mm;
-    width: 120mm;
-    height: 30mm;
+    left: 49.13px;
+    top: 124.72px;
+    width: 453.54px;
+    height: 113.39px;
     text-align: left;
     font-size: 56px;
     font-weight: bolder;
@@ -176,10 +176,10 @@ body {
 }
 .heading {
     position: absolute;
-    left: 14mm;
-    top: 48mm;
-    width: 120mm;
-    height: 30mm;
+    left: 52.91px;
+    top: 181.42px;
+    width: 453.54px;
+    height: 113.39px;
     text-align: left;
     font-size: 56px;
     font-weight: bolder;
@@ -187,10 +187,10 @@ body {
 }
 .sub-heading {
     position: absolute;
-    left: 20mm;
-    top: 100mm;
-    width: 90mm;
-    height: 10mm;
+    left: 75.59px;
+    top: 377.95px;
+    width: 340.16px;
+    height: 37.8px;
     font-weight: bold;
     text-align: left;
     font-size: 28px;
@@ -198,10 +198,10 @@ body {
 
 .description {
     position: absolute;
-    left: 5mm;
-    top: 112mm;
-    width: 137mm;
-    height: 50mm;
+    left: 18.9px;
+    top: 423.31px;
+    width: 517.8px;
+    height: 188.98px;
     text-align: justify;
     font-size: 19px;
 }
@@ -214,35 +214,35 @@ body {
 .services {
     position: absolute;
     background-color: black;
-    right: 0mm;
-    top: 106mm;
-    width: 110mm;
-    height: 59mm;
+    right: 0px;
+    top: 400.63px;
+    width: 415.75px;
+    height: 222.99px;
     color: #ffffff;
 }
 
 /* Service */
 .service {
-    width:90mm;
-    height:10mm;
+    width:340.16px;
+    height:37.8px;
 	
 }
 
 /* Service name */
 .service-name {
-    margin-top: 1mm;
+    margin-top: 3.78px;
     position: absolute;
-    margin-left: 19mm;
+    margin-left: 71.81px;
     font-weight: bold;
     text-align: left;
     font-size: 24px;
     color: #FFDC5B;
 }
 .service-image {
-    height: 28mm;
+    height: 105.83px;
     position: absolute;
-    left: -4mm;
-    top: 10mm;
+    left: -15.12px;
+    top: 37.8px;
 }
 /* Service image */
 .service-image i {
@@ -251,12 +251,12 @@ body {
 
 /* Service description */
 .service-description {
-    margin-top: 19mm;
+    margin-top: 71.81px;
     position: absolute;
     text-align: left;
     font-size: 18px;
     color: #ffffff;
-    margin-left: 19mm;
+    margin-left: 71.81px;
     text-wrap: balance;
 }
 .contact-us {
@@ -267,10 +267,10 @@ body {
     top: 262mm;
     left: 0mm; */
     color: white;
-    left: -55mm;
+    left: -207.87px;
     /* right: 4mm; */
     text-align: center;
-    top: 246mm;
+    top: 929.76px;
     position: absolute;
     /* background-color: black; */
     size: 54px;
@@ -293,10 +293,10 @@ body {
 /* Features heading */
 .features-heading {
     position: absolute;
-    left: 20mm;
-    top: 164mm;
-    width: 90mm;
-    height: 10mm;
+    left: 75.59px;
+    top: 619.84px;
+    width: 340.16px;
+    height: 37.8px;
     font-weight: bold;
     text-align: left;
     font-size: 28px;
@@ -308,16 +308,16 @@ body {
 /* Features */
 .features {
 	position:absolute;
-    left:0mm;
-    top:190mm;
-    width:90mm;
-    height:70mm;
+    left:0px;
+    top:718.11px;
+    width:340.16px;
+    height:264.57px;
 }
 
 /* Feature */
 .feature {
-    width:90mm;
-    height:10mm;
+    width:340.16px;
+    height:37.8px;
 	font-weight: 200;
     text-align: left;
     font-size: 18px;
@@ -325,102 +325,102 @@ body {
 .feature-name {
     position: relative;
     font-weight: 100;
-    margin-left: 13mm;
-    top: -18mm;
+    margin-left: 49.13px;
+    top: -68.03px;
 }
 .feature-name1 {
     font-size: 31px;
     position: absolute;
-    top: -17mm;
-    left: 20mm;
+    top: -64.25px;
+    left: 75.59px;
 }
 .feature-name2 {
     font-size: 31px;
     position: absolute;
-    top: -7mm;
+    top: -26.46px;
     left: 20mm;
 }
 .feature-name3 {
     font-size: 31px;
     position: absolute;
-    top: 3mm;
-    right: -2mm;
+    top: 11.34px;
+    right: -7.56px;
 }
 .feature-name4 {
     font-size: 31px;
     position: absolute;
-    top: 13mm;
-    left: 20mm;
+    top: 49.13px;
+    left: 75.59px;
 }
 .feature-name5 {
     font-size: 31px;
     position: absolute;
-    top: 23mm;
-    right: -24mm;
+    top: 86.93px;
+    right: -90.71px;
 }
 .feature-name6 {
     font-size: 31px;
     position: absolute;
-    top: 33mm;
-    left: 19mm;
+    top: 124.72px;
+    left: 71.81px;
 }
 .feature-name7 {
     font-size: 31px;
     position: absolute;
-    top: 43mm;
-    left: 19mm;
+    top: 162.52px;
+    left: 71.81px;
 }
 .feature-imagee {
     font-size: 31px;
     position: absolute;
-    top: 161mm;
-    left: 8mm;
+    top: 608.5px;
+    left: 30.24px;
 }
 .feature-image1 {
     font-size: 31px;
     position: absolute;
-    top: -17mm;
-    left: 7mm;
+    top: -64.25px;
+    left: 26.46px;
 }
 .feature-image2 {
     font-size: 31px;
     position: absolute;
-    top: -8mm;
-    left: 7mm;
+    top: -30.24px;
+    left: 26.46px;
 }
 .feature-image3 {
     font-size: 31px;
     position: absolute;
-    top: 2mm;
-    left: 7mm;
+    top: 7.56px;
+    left: 26.46px;
 }
 .feature-image4 {
     font-size: 31px;
     position: absolute;
-    top: 12mm;
-    left: 7mm;
+    top: 45.35px;
+    left: 26.46px;
 }
 .feature-image5 {
     font-size: 31px;
     position: absolute;
-    top: 23mm;
-    right: 73mm;
+    top: 86.93px;
+    right: 275.91px;
 }
 .feature-image6 {
     font-size: 31px;
     position: absolute;
-    top: 33mm;
-    left: 6mm;
+    top: 124.72px;
+    left: 22.68px;
 }
 .feature-image7 {
     font-size: 31px;
     position: absolute;
-    top: 44mm;
-    left: 7mm;
+    top: 166.3px;
+    left: 26.46px;
 }
 .feature {
-    width: 90mm;
-    height: 8mm;
+    width: 340.16px;
+    height: 30.24px;
     font-weight: 200;
     text-align: left;
     font-size: 25px;
@@ -440,18 +440,18 @@ body {
 
 /* Feature description */
 .feature-description {
-    margin-top: 5mm;
+    margin-top: 49.13px;
 }
 
 /* Terms heading */
 .terms-heading {
     position: absolute;
-    top: 167mm;
-    height: 10mm;
-    right: 0mm;
-    width: 110mm;
+    top: 631.18px;
+    height: 37.8px;
+    right: 0px;
+    width: 415.75px;
     font-weight: bold;
-    margin-left: 20mm;
+    margin-left: 75.59px;
     text-align: center;
     font-size: 28px;
     background-color: black;
@@ -462,27 +462,27 @@ body {
 .terms {
     position: absolute;
     background-color: black;
-    right: 0mm;
-    top: 177mm;
-    width: 110mm;
-    height: 40mm;
+    right: 0px;
+    top: 668.98px;
+    width: 415.75px;
+    height: 151.18px;
 }
 .term-image1 {
     position: absolute;
-    top: 2mm;
-    left: 11mm;
+    top: 7.56px;
+    left: 41.57px;
     height: 21px;
 }
 .term-image2 {
-    height: 6mm;
+    height: 22.68px;
     position: absolute;
-    top: 7mm;
-    left: 11mm;
+    top: 26.46px;
+    left: 41.57px;
 }
 .term-image3 {
     position: absolute;
-    top: 12mm;
-    left: 11mm;
+    top: 45.35px;
+    left: 41.57px;
     height: 25px;
 }
     
@@ -490,7 +490,7 @@ body {
 /* Term */
 .term {
     font-weight:100;
-    margin-top:5mm;
+    margin-top:18.9px;
    
 }
 .icon {
@@ -506,26 +506,26 @@ body {
     text-align: left;
     font-size: 18px;
     color: #ffffff;
-    margin-left: 28mm;
+    margin-left: 105.83px;
     text-wrap: balance;
     /* position: absolute; */
-    margin-top: -2mm;
+    margin-top: -7.56px;
 }
 .bi-wifi::before {
     content: "\f61c";
     position: absolute;
-    left: 1mm;
-    top: -2mm;
+    left: 3.78px;
+    top: -7.56px;
 }
 .fa-list:before {
     color: black;
     content: "\f03a";
     position: absolute;
-    left: -159mm;
-    top: 75mm;
+    left: -600.94px;
+    top: 283.46px;
 }
 .term-image-MEMBERSHIP {
-    height: 28mm;
+    height: 105.83px;
     position: absolute;
     top: 12px;
     left: -27px;
@@ -582,12 +582,12 @@ body {
 .bi-star:before {
     content: "\f005";
     position: absolute;
-    top: -14mm;
-    left: -97mm;
+    top: -52.91px;
+    left: -366.61px;
 }
 .fa-star:before {
-    top: -11mm;
-    left: -158mm;
+    top: -41.57px;
+    left: -597.17px;
     content: "\f005";
     position: absolute;
     color: #FFDC5B;
@@ -626,44 +626,44 @@ body {
     font-size: 2em;
 }
 .fa-map-marker-alt:before {
-    font-size: 17mm;
-    top: 50mm;
-    left: 2mm;
+    font-size: 64.25px;
+    top: 188.98px;
+    left: 7.56px;
     content: "\f3c5";
     position: absolute;
 }
 .fa-dollar-sign:before {
     color: #FFDC5B;
-    left: 3mm;
-    top: 7mm;
+    left: 11.34px;
+    top: 26.46px;
     content: "\f155";
     position: absolute;
-    font-size: 18mm;
+    font-size: 68.03px;
 }.fa-telegram:before {
     color: #FFDC5B;
-    left: 1mm;
-    top: -53mm;
+    left: 3.78px;
+    top: -200.31px;
     content: "\f155";
     position: absolute;
-    font-size: 18mm;
+    font-size: 68.03px;
 }
 .Location {
     position: absolute;
-    top: 219mm;
-    left: 182mm;
+    top: 827.72px;
+    left: 687.87px;
     color: #FFDC5B;
     font-size: 24px;
 }
 .Location-imagee {
-    width: 20mm;
+    width: 75.59px;
     position: absolute;
-    top: 221mm;
-    right: 96mm;
+    top: 835.28px;
+    right: 362.83px;
 }
 .fa-map-marker-alt:before {
-    font-size: 17mm;
-    top: 50mm;
-    left: 2mm;
+    font-size: 64.25px;
+    top: 188.98px;
+    left: 7.56px;
     content: "\f3c5";
     position: absolute;
     color: #FFDC5B;
@@ -671,21 +671,17 @@ body {
 .footer {
     position: absolute;
     background-color: #2949c9;
-    height: 10mm;
-    left: -160mm;
-    top: 84mm;
-    width: 283mm;
-    height: 13mm;
+    height: 37.8px;
+    left: -604.72px;
+    top: 317.48px;
+    width: 1069.61px;
+    height: 49.13px;
 }
 
 
 
 /* Term description */
 .term-description {
-    margin-top: 5mm;
+    margin-top: 18.9px;
 }
-font-size: 30px;
-    color: black;
-    position: absolute;
-    bottom: 42px;
-    left: 70px;
+
