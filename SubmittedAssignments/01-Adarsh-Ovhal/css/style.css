@@ -1,0 +1,838 @@
+
+.socialpost-wrapper {
+    margin-top: 100px;
+    margin-left: 100px;
+    overflow: hidden;
+    width: 1500px;
+    height: 1500px;
+    position: relative;
+    background: #ffffff;
+    
+}
+.socialpost-background {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background: #ffffff;
+    
+    
+}
+
+.rec1{
+    
+    width: 900px; 
+    height: 480px; 
+    top: 200px;
+    left: -110px;
+    background-color:transparent; 
+    border: 15px solid rgb(2, 75, 118);
+    transform: rotate(140deg);
+    border-bottom: none;
+    z-index: 2;
+    position: relative;
+}
+
+.rec2{
+    
+    width: 1600px; 
+    height: 1800px; 
+    top: -700px;
+    left: -660px;
+    background-color:transparent; 
+    border: 400px solid white;
+    transform: rotate(140deg);
+    z-index: 1;
+    border-bottom: none;
+    
+    position: absolute;
+}
+
+.rec3{
+    
+    width: 300px; 
+    height: 300px; 
+    top: 1000px;
+    left: -220px;
+    background-color:rgb(0, 133, 190); 
+    border: 40px solid rgb(2, 75, 118);
+    transform: rotate(135deg);
+    z-index: 1;
+    border-bottom: none;
+    border-right: none;
+    
+    position: absolute;
+}
+
+.rec4{
+    
+    width: 300px; 
+    height: 300px; 
+    top: 1380px;
+    left: 150px;
+    
+    background-color:rgb(0, 133, 190); 
+    border: 60px solid rgb(2, 75, 118);
+    transform: rotate(45deg);
+    z-index: 2;
+    border-bottom: none;
+    border-right: none;
+    
+    position: absolute;
+}
+
+.rec5{
+    
+    width: 800px; 
+    height: 800px; 
+    top: 1370px;
+    left: -100px;
+    background-color:rgb(0, 133, 190); 
+    border: 60px solid rgb(2, 75, 118);
+    transform: rotate(45deg);
+    z-index: 1;
+    border-bottom: none;
+    border-right: none;
+    position: absolute;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+/* Container */
+.content {
+    max-width: 297mm; /* A4 paper width */
+    margin: 0 auto;
+    padding: 10mm;
+}
+/* Organization logo */
+.org-logo {
+    position: absolute;
+    left: 300px;
+    width: 210px;
+    height: 100px;
+    top: 10px;
+    z-index: 2;
+}
+.org-logo img {
+    top: 514.9px;
+    left: 360.56px;
+    height: 114%;
+    width: 143%;
+    position: absolute;
+}
+/* Organization name */
+.org-name h2 {
+    color: #fff;
+    position: absolute;
+    right: 380px;
+    top: 795px;
+    height: 75.59px;
+    width: 529.13px;
+    font-size: 20px;
+}
+.org-address {
+    position: absolute;
+    background-color: rgb(2, 75, 118);
+    right: 20px;
+    top: 806px;
+    width: 415.75px;
+    height: 98.27px;
+}
+.org-address p {
+    top: 38px;
+    margin-left: 75.59px;
+    position: absolute;
+    text-align: left;
+    font-size: 12px;
+    color: #e9ecef;
+    font-weight: bolder;
+}
+/* Organization email, phone, fax, and website */
+.org-email,
+.org-alternate-email,
+.org-phone,
+.org-alternate-phone,
+.org-fax,
+.org-website {
+    margin: 18.9px 0;
+}
+.org-email {
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    right: 68.03px;
+    bottom: -676px;
+    height: 18.9px;
+    width: 188.98px;
+}
+.org-email i {
+    font-size: 1.5em;
+}
+.org-website {
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    right: 272.13px;
+    bottom: -676px;
+    height: 18.9px;
+    width: 188.98px;
+}
+.org-website i {
+    font-size: 1.5em;
+}
+.org-phone {
+    position: absolute;
+    right: 50px;
+    top: 1327px;
+    width: 415.75px;
+    height: 75.59px;
+    font-size: 42px;
+    color: rgb(2, 75, 118);
+    text-align: justify;
+    font-weight: bolder;
+}
+.org-phone1 {
+    height: 71px;
+    position: absolute;
+    right: 175px;
+    top: -3.78px;
+}
+.org-phone i {
+    font-size: 1.5em;
+}
+/* Header background image */
+.header-background-image img {
+    width: 100%;
+}
+/* Background image, image, alternate image */
+.background-image img,
+.image img,
+.alternate-image img {
+    width: 100%;
+}
+.background-image img {
+    height: 920px;
+    position: absolute;
+    left: -500px;
+    top: -100px;
+    width: 1300px;
+}
+.image img{
+    position:absolute;
+    right:152px;
+    top: 105px;;
+    width:459px;
+    height:154px;
+    z-index: 2;
+}
+/* Heading, sub-heading, description, punchlines, offerlines */
+.heading,
+.sub-heading,
+.description,
+.punchline1,
+.punchline2,
+.offerline1,
+.offerline2 {
+    margin: 5mm 0;
+}
+.punchline1{
+    position:absolute;
+    left:0px;
+    top:113.39px;
+    width:453.54px;
+    height:37.8px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+   color:#ffffff;
+}
+.heading-first {
+    position: absolute;
+    left: 198.13px;
+    top: 1004.72px;
+    width: 453.54px;
+    height: 113.39px;
+    text-align: left;
+    font-size: 88px;
+    font-weight: bolder;
+    color: rgb(2, 75, 118);
+    z-index: 2;
+}
+
+.dot1{
+    position: absolute;
+    left: 240px;
+    top: 900px;
+    width: 500px;
+    height: 200px;
+    text-align: left;
+    font-size: 88px;
+    font-weight: bolder;
+    transform: rotate(35deg);
+    color: rgba(0, 0, 0, 0.500);
+    z-index: 2;
+}
+
+.dot2 {
+    position: absolute;
+    left: 240px;
+    top: 930px;
+    width: 500px;
+    height: 200px;
+    text-align: left;
+    font-size: 88px;
+    font-weight: bolder;
+    transform: rotate(35deg);
+    color: rgba(0, 0, 0, 0.500);
+    z-index: 2;
+}
+
+.dot3{
+    position: absolute;
+    left: 816px;
+    top: 360px;
+    width: 500px;
+    height: 200px;
+    text-align: left;
+    font-size: 88px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.500);
+    z-index: 2;
+}
+
+.dot4 {
+    position: absolute;
+    left: 840px;
+    top: 385px;
+    width: 500px;
+    height: 200px;
+    text-align: left;
+    font-size: 88px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.500);
+    z-index: 2;
+}
+
+.border1 {
+    content: "";
+    position: absolute;
+    right: -200px;
+    top: 150px;
+    width: 400px;
+    height: 10px;
+    transform: rotate(-45deg); 
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.849), transparent 100%);
+    z-index: 2;
+}
+
+.border2 {
+    content: "";
+    position: absolute;
+    right: -200px;
+    top: 200px;
+    width: 400px;
+    height: 10px;
+    transform: rotate(-45deg); 
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.849), transparent 100%);
+    z-index: 2;
+}
+
+.border3 {
+    content: "";
+    position: absolute;
+    left: 810px;
+    bottom: -10px;
+    width: 400px;
+    height: 10px;
+    transform: rotate(45deg); 
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.849), transparent 100%);
+    /* z-index: 1; */
+}
+
+.border4 {
+    content: "";
+    position: absolute;
+    left: 810px;
+    bottom: 40px;
+    width: 400px;
+    height: 10px;
+    transform: rotate(45deg); 
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.849), transparent 100%);
+    /* z-index: 1; */
+}
+
+.heading {
+    position: absolute;
+    left: 475.91px;
+    top: 1129.42px;
+    width: 556.54px;
+    height: 113.39px;
+    text-align: left;
+    font-size: 78px;
+    font-weight: bolder;
+    line-height: 1;
+    color: rgb(0, 133, 190);
+    z-index: 2;
+}
+.sub-heading {
+    position: absolute;
+    left: 449.59px;
+    top: 662.95px;
+    width: 677.95px;
+    height: 37.8px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 44px;
+    color: rgb(0, 133, 190);
+    z-index: 2;
+}
+
+.description {
+    position: absolute;
+    left: 446.9px;
+    top: 729.31px;
+    width: 517.8px;
+    height: 188.98px;
+    text-align: justify;
+    font-size: 23px;
+    color: rgb(2, 75, 118);
+    z-index: 2;
+}
+/* Services heading */
+.services-heading {
+    margin-top: 0%;
+}
+
+/* Services */
+.services {
+    position: absolute;
+    background-color: rgb(2, 75, 118);
+    right: 20px;
+    top: 375.63px;
+    width: 415.75px;
+    height: 222.99px;
+    color: #e9ecef;
+    z-index: 2;
+}
+
+/* Service */
+.service {
+    width:340.16px;
+    height:37.8px;
+	
+}
+
+/* Service name */
+.service-name {
+    margin-top: 3.78px;
+    position: absolute;
+    margin-left: 71.81px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 24px;
+    color: white;
+}
+.service-image {
+    height: 105.83px;
+    position: absolute;
+    left: -15.12px;
+    top: 37.8px;
+}
+/* Service image */
+.service-image i {
+    font-size: 2em;
+}
+
+/* Service description */
+.service-description {
+    margin-top: 71.81px;
+    position: absolute;
+    text-align: left;
+    font-size: 18px;
+    color: #e9ecef;
+    margin-left: 71.81px;
+    text-wrap: balance;
+}
+.contact-us {
+    color: white;
+    left: 195px;
+    /* right: 4mm; */
+    text-align: center;
+    top: 1377.76px;
+    position: absolute;
+    /* background-color: black; */
+    size: 67px;
+    border-right: 67pt solid transparent;
+    border-top: 34.75pt solid rgb(0, 133, 190);
+    border-left: 379pt solid rgb(0, 133, 190);
+    
+}
+.contact-us .p {
+    text-emphasis-color: rgb(2, 75, 118);
+}
+
+.contact {
+    font-size: 27px;
+    color: white;
+    position: absolute;
+    bottom: 77px;
+    left: 526px;
+}
+
+/* Features heading */
+.features-heading {
+    position: absolute;
+    right: 38.59px;
+    top: 936.84px;
+    width: 340.16px;
+    height: 37.8px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 28px;
+    color: rgb(2, 75, 118);
+}
+
+
+
+
+/* Features */
+.features {
+	position:absolute;
+    right:120px;
+    top:1074.11px;
+    width:340.16px;
+    height:264.57px;
+}
+
+/* Feature */
+.feature {
+    width:340.16px;
+    height:37.8px;
+	font-weight: 200;
+    text-align: right;
+    font-size: 18px;
+    position: absolute;
+}
+.feature-name {
+    position: relative;
+    font-weight: 100;
+    margin-left: 49.13px;
+    top: -68.03px;
+}
+.feature-name1 {
+    font-size: 31px;
+    position: absolute;
+    top: -91.25px;
+    left: 75.59px;
+}
+.feature-name2 {
+    font-size: 31px;
+    position: absolute;
+    top: -53.46px;
+    left: 20mm;
+}
+.feature-name3 {
+    font-size: 31px;
+    position: absolute;
+    top: -13.66px;
+    right: -7.56px;
+}
+.feature-name4 {
+    font-size: 31px;
+    position: absolute;
+    top: 24.13px;
+    left: 75.59px;
+}
+.feature-name5 {
+    font-size: 31px;
+    position: absolute;
+    top: 62.93px;
+    right: -90.71px;
+}
+.feature-name6 {
+    font-size: 31px;
+    position: absolute;
+    top: 104.72px;
+    left: 71.81px;
+}
+.feature-name7 {
+    font-size: 31px;
+    position: absolute;
+    top: 144.52px;
+    left: 71.81px;
+}
+.feature-imagee {
+    font-size: 31px;
+    position: absolute;
+    top: 925.5px;
+    right: 394.24px;
+}
+.feature-image1 {
+    font-size: 31px;
+    position: absolute;
+    top: -94.25px;
+    left: 26.46px;
+}
+.feature-image2 {
+    font-size: 31px;
+    position: absolute;
+    top: -52.24px;
+    left: 26.46px;
+}
+.feature-image3 {
+    font-size: 31px;
+    position: absolute;
+    top: -10.44px;
+    left: 26.46px;
+}
+.feature-image4 {
+    font-size: 31px;
+    position: absolute;
+    top: 30.35px;
+    left: 26.46px;
+}
+.feature-image5 {
+    font-size: 31px;
+    position: absolute;
+    top: 66.93px;
+    right: 275.91px;
+}
+.feature-image6 {
+    font-size: 31px;
+    position: absolute;
+    top: 105.72px;
+    left: 22.68px;
+}
+.feature-image7 {
+    font-size: 31px;
+    position: absolute;
+    top: 144.3px;
+    left: 26.46px;
+}
+.feature {
+    width: 340.16px;
+    height: 30.24px;
+    font-weight: 200;
+    text-align: left;
+    font-size: 25px;
+}
+
+
+
+/* Feature name */
+.feature-name {
+    font-weight: 100;
+    margin-left: 13mm;
+}
+/* Feature image */
+.feature-image i {
+    font-size: 2em;
+}
+
+/* Feature description */
+.feature-description {
+    margin-top: 49.13px;
+}
+
+/* Terms heading */
+.terms-heading {
+    position: absolute;
+    top: 608.18px;
+    height: 37.8px;
+    right: 20px;
+    width: 415.75px;
+    font-weight: bold;
+    margin-left: 75.59px;
+    text-align: center;
+    font-size: 28px;
+    background-color: rgb(2, 75, 118);
+    color: white;
+}
+
+/* Terms */
+.terms {
+    position: absolute;
+    background-color: rgb(2, 75, 118);
+    right: 20px;
+    top: 646.98px;
+    width: 415.75px;
+    height: 151.18px;
+}
+.term-image1 {
+    position: absolute;
+    top: 7.56px;
+    left: 41.57px;
+    height: 21px;
+}
+.term-image2 {
+    height: 22.68px;
+    position: absolute;
+    top: 26.46px;
+    left: 41.57px;
+}
+.term-image3 {
+    position: absolute;
+    top: 45.35px;
+    left: 41.57px;
+    height: 25px;
+}
+    
+
+/* Term */
+.term {
+    font-weight:100;
+    margin-top:18.9px;
+   
+}
+.icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.term-name {
+    text-align: left;
+    font-size: 18px;
+    color: white;
+    margin-left: 105.83px;
+    text-wrap: balance;
+    /* position: absolute; */
+    margin-top: -7.56px;
+}
+.bi-wifi::before {
+    content: "\f61c";
+    position: absolute;
+    left: 3.78px;
+    top: -7.56px;
+}
+.fa-list:before {
+    color: rgb(2, 75, 118);
+    content: "\f03a";
+    position: absolute;
+    left: -600.94px;
+    top: 283.46px;
+}
+.term-image-MEMBERSHIP {
+    height: 105.83px;
+    position: absolute;
+    top: 12px;
+    left: -27px;
+}
+
+
+.bi-star:before {
+    content: "\f005";
+    position: absolute;
+    top: -52.91px;
+    left: -366.61px;
+}
+.fa-star:before {
+    top: -41.57px;
+    left: -597.17px;
+    content: "\f005";
+    position: absolute;
+    color: rgb(0, 133, 190);
+}
+.location-icon {
+    color: rgb(0, 133, 190); /* Change color */
+    font-size: 24px; /* Adjust size */
+    margin-right: 8px; /* Space between icon and text */
+}
+
+
+        /* Base class for all icons */
+        .icon {
+            width: 24px; /* Width of the icon */
+            height: 24px; /* Height of the icon */
+            display: inline-block; /* Ensure it behaves like an inline element but allows setting width/height */
+            background-image: url('icons.png'); /* Path to your sprite image */
+            background-size: cover; /* Ensure the entire image is used */
+            margin-right: 10px; /* Add space between the icon and the text */
+        }
+
+        /* Specific class for the "Free MCQ Bank (AI Based)" icon */
+        .icon-mcq-bank {
+            background-position: -48px -24px; /* Adjust according to the position of your icon in the sprite */
+        }
+
+        /* Class for aligning icons and text */
+        .icon-container {
+            display: flex; /* Use flexbox to align items */
+            align-items: center; /* Center items vertically */
+            margin-bottom: 10px; /* Add space between each row */
+        }
+
+/* Term image */
+.term-image i {
+    font-size: 2em;
+}
+.fa-map-marker-alt:before {
+    font-size: 64.25px;
+    top: 188.98px;
+    left: 7.56px;
+    content: "\f3c5";
+    position: absolute;
+}
+.fa-dollar-sign:before {
+    color: rgb(0, 133, 190);
+    left: 11.34px;
+    top: 26.46px;
+    content: "\f155";
+    position: absolute;
+    font-size: 68.03px;
+}.fa-telegram:before {
+    color: rgb(0, 133, 190);
+    left: 3.78px;
+    top: -200.31px;
+    content: "\f155";
+    position: absolute;
+    font-size: 68.03px;
+}
+.Location {
+    position: absolute;
+    top: 806.72px;
+    left: 1222.86px;
+    color: white;
+    font-size: 24px;
+}
+.Location-imagee {
+    width: 75.59px;
+    position: absolute;
+    top: 816.28px;
+    right: 382.49px;
+}
+.fa-map-marker-alt:before {
+    font-size: 64.25px;
+    top: 188.98px;
+    left: 7.56px;
+    content: "\f3c5";
+    position: absolute;
+    color: rgb(0, 133, 190);
+}
+.footer {
+    position: absolute;
+    background-color: rgb(2, 75, 118);
+    height: 37.8px;
+    left: -604.72px;
+    top: 780px;
+    width: 1069.61px;
+    height: 49.13px;
+}
+
+
+
+/* Term description */
+.term-description {
+    margin-top: 18.9px;
+}
+
+
+
