@@ -366,13 +366,13 @@ body {
 /* Features heading */
 .features-heading {
     position: absolute;
-    left: 75.59px;
-    top: 588.84px;
+    left: 60.59px;
+    top: 582.84px;
     width: 340.16px;
     height: 37.8px;
     font-weight: bold;
     text-align: left;
-    font-size: 28px;
+    font-size: 33px;
 }
 
 
@@ -380,11 +380,11 @@ body {
 
 /* Features */
 .features {
-	position:absolute;
-    left:0px;
-    top:718.11px;
-    width:340.16px;
-    height:264.57px;
+    position: absolute;
+    left: 28px;
+    top: 718.11px;
+    width: 340.16px;
+    height: 264.57px;
 }
 
 /* Feature */
@@ -540,7 +540,7 @@ body {
     position: absolute;
     background-color: #4CAF50;
     right: 38px;
-    top: 646.98px;
+    top: 644.98px;
     border-top-left-radius: 0mm;
     border-top-right-radius: 0mm;
     border-bottom-left-radius: 10mm;
