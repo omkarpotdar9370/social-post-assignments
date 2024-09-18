@@ -16,67 +16,67 @@
 
 }
 .socialpost-background .rect1{
-	border-radius: 57pt;
-    left: -207pt;
-    margin-top: 316.31pt;
-    width: 479.775pt;
-    height: 198.5pt;
+	border-radius: 76px;
+    left: -276px;
+    margin-top: 421.75px;
+    width: 639.70px;
+    height: 264.66px;
     background-color: orange;
     transform: rotate(66deg);
     position: absolute;
-    top: 209pt;
+    top: 278.66px;
     /* z-index: 1; */
 }
 .socialpost-background .rect2{
-	border-radius: 73pt;
+	border-radius: 97.33px;
     border-top: none;
-    left: 510pt;
-    margin-top: 316.31pt;
-    width: 614.5pt;
-    height: 93.77pt;
+    left: 680px;
+    margin-top: 421.745px;
+    width: 819.33px;
+    height: 125.026px;
     background-color: orange;
     transform: skewX(-27deg);
     position: absolute;
-    top: -84pt;
+    top: -112px;
     /* z-index: 1; */
 }
 .socialpost-background .rect3{
 	
 	border-top-left-radius: 48px;
-    left: 583pt;
-    margin-top: 316.31pt;
-    width: 479.775pt;
-    height: 129.5pt;
+    left: 777.33px;
+    margin-top: 421.746px;
+    width: 639.69px;
+    height: 172.66px;
     background-color: orange;
     transform: rotate(-13deg);
     position: absolute;
-    top: -374pt;
+    top: -498.66px;
     /* z-index: 1; */
 }
 .socialpost-background .line1{
 	
 	border-top-left-radius: 48px;
-    left: 507pt;
-    margin-top: 316.31pt;
-    width: 270.775pt;
-    height: 0.5pt;
+    left: 676px;
+    margin-top: 421.746px;
+    width: 361.03px;
+    height: 0.66px;
     background-color: orange;
     transform: rotate(0deg);
     position: absolute;
-    top: -225pt;
+    top: -300px;
     z-index: 10;
 }
 .socialpost-background .line2{
 
 	border-top-left-radius: 48px;
-    left: 413pt;
-    margin-top: 316.31pt;
-    width: 191.775pt;
-    height: 0.5pt;
+    left: 550.66px;
+    margin-top: 421.74px;
+    width: 255.7px;
+    height: 0.66px;
     background-color: orange;
     transform: rotate(89deg);
     position: absolute;
-    top: -129pt;
+    top: -172px;
     z-index: 10;
 }
 	
@@ -90,9 +90,9 @@ body {
 
 /* Container */
 .content {
-    max-width: 297mm; /* A4 paper width */
+    max-width: 1122.51px; /* A4 paper width */
     margin: 0 auto;
-    padding: 10mm;
+    padding: 37.79px;
 }
 /* Organization logo */
 .org-logo {
@@ -146,32 +146,32 @@ body {
 }
 .org-alternate-email{
 	margin: 18.9px 0;
-	margin-top:10mm;
-	margin-left:10mm;
+	margin-top:37.79px;
+	margin-left:37.79px;
 }	
 .org-phone{
 	margin: 18.9px 0;
 	margin: 18.9px 0;
-	margin-top:10mm;
-	margin-left:10mm;
+	margin-top:37.79px;
+	margin-left:37.79px;
 }
 .org-alternate-phone{
 	margin: 18.9px 0;
 	margin: 18.9px 0;
-	margin-top:10mm;
-	margin-left:10mm;
+	margin-top:37.79px;
+	margin-left:37.79px;
 }	
 .org-fax{
 	margin: 18.9px 0;
 	margin: 18.9px 0;
-	margin-top:10mm;
-	margin-left:10mm;
+	margin-top:37.79px;
+	margin-left:37.79px;
 }
 .org-website {
     margin: 18.9px 0;
 	margin: 18.9px 0;
-	margin-top:10mm;
-	margin-left:10mm;
+	margin-top:37.79px;
+	margin-left:37.79px;
 }
 .org-email {
    font-size: 20px;
@@ -237,8 +237,8 @@ body {
     -moz-border-radius: 75px;
     border-bottom-left-radius: 78px;
     width: 317px;
-    margin-left: 186mm;
-    margin-top: 27mm;
+    margin-left: 702.99px;
+    margin-top: 102.047px;
     position: absolute;
     z-index: 1;
 }
@@ -254,8 +254,8 @@ body {
     background-color: #FFFFFF;
     height: 971px;
     width: 1052px;
-    margin-left: -8mm;
-    margin-top: -1mm;
+    margin-left: -30.23px;
+    margin-top: -3.77px;
     position: absolute;
     z-index: 0;
 }
@@ -268,7 +268,7 @@ body {
 .punchline2,
 .offerline1,
 .offerline2 {
-    margin: 5mm 0;
+    margin: 3.77px 0;
 }
 .punchline1{
     position:absolute;
@@ -393,9 +393,9 @@ body {
     position: absolute;
     /* background-color: black; */
     size: 67px;
-    border-right: 88pt solid transparent;
-    border-top: 35.75pt solid #FFDC5B;
-    border-left: 379pt solid #FFDC5B;
+    border-right: 117.33px solid transparent;
+    border-top: 47.66px solid #FFDC5B;
+    border-left: 505.33px solid #FFDC5B;
 }
 .contact-us .p {
     text-emphasis-color: black;
@@ -461,42 +461,42 @@ body {
     font-size: 25px;
     position: absolute;
     top: -53.46px;
-    left: 20mm;
+    left: 75.59px;
 	color:white;
 }
 .feature-name3 {
     font-size: 25px;
     position: absolute;
     top: -13.66px;
-    left: 20mm;
+    left: 75.59px;
 	color:white;
 }
 .feature-name4 {
     font-size: 25px;
     position: absolute;
     top: 24.13px;
-    left: 20mm;
+    left: 75.59px;
 	color:white;
 }
 .feature-name5 {
 	font-size: 20px;
     position: absolute;
     top: 71.93px;
-    left: 20mm;
+    left: 75.59px;
     color: white;
 }
 .feature-name6 {
     font-size: 25px;
     position: absolute;
     top: 104.72px;
-    left: 20mm;
+    left: 75.59px;
 	color:white;
 }
 .feature-name7 {
     font-size: 25px;
     position: absolute;
     top: 144.52px;
-    left: 20mm;
+    left: 75.59px;
 	color:white;
 }
 .feature-imagee {
@@ -561,7 +561,7 @@ body {
 /* Feature name */
 .feature-name {
     font-weight: 100;
-    margin-left: 13mm;
+    margin-left: 49.13px;
 }
 /* Feature image */
 .feature-image i {
