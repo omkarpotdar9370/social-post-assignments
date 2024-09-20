@@ -5,7 +5,6 @@
     overflow: hidden;
     width: 1024px;
     height: 1024px;
-    background: #db0808;
 }
 
 .socialpost-background {
@@ -23,9 +22,7 @@
     left: 300px;
     top: 51px;
     width: 452px;
-    height: 67px;
-    /* transform: skew(30deg); */
-  
+    height: 67px;  
 }
 
 .header-background-left {
@@ -94,24 +91,24 @@
     content: "";
     position: absolute;
     left: 157px;
-    bottom: 0;
-    width: 0;
-    height: 0;
-    border-left: 30px solid white;
-    border-top: 40px solid transparent;
-    border-bottom: 40px solid transparent;
+    bottom: 0px;
+    width: 0px;
+    height: 0px;
+    border-left: 1.8em solid white;
+    border-top: 2.5em solid transparent;
+    border-bottom: 2.5em solid transparent;
   }
   .pointer:before {
     content: "";
     position: absolute;
     left: -44px;
-    bottom: 0;
-    width: 0;
-    height: 0;
+    bottom: 0px;
+    width: 0px;
+    height: 0px;
     transform: rotate(180deg);
-    border-left: 45px solid white;
-    border-top: 0px solid transparent;
-    border-bottom: 80px solid transparent;
+    border-left: 2.8em solid white;
+    border-top: 0em solid transparent;
+    border-bottom: 5em solid transparent;
   }
 
 .header-background-image {
@@ -145,7 +142,7 @@
     background-image: linear-gradient(to top, #C11F2E, #E84E2A);
     position: relative;
     margin: 30px;
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(69px 0px, 140px 43px, 140px 123px, 70px 162px, 0px 123px, 0px 40px);
 } 
 
 .footer-background-image {
@@ -177,8 +174,8 @@
     height: 1024px;
     position: absolute;
     overflow: hidden;
-    /* background: rgb(249, 245, 9); */
 }
+
 .org-logo img{
     position: absolute;
     left: 151px;
@@ -187,6 +184,7 @@
     overflow: hidden;
     height: 70px;
 }
+
 .org-address {
     position: absolute;
     right: 25px;
@@ -196,34 +194,38 @@
     color: white;
     text-align: left;
 }
+
 .Location{
     position: absolute;
     right: 170px;
     bottom: 84px;
     width: 120px;
     height: 40px;
-    font-size: 25pt;
+    font-size: 2.09em;
     color: #ffd54f;
    
 }
+
 .Location-imagee {
     width: 30.59px;
     position: absolute;
     top: 910.28px;
     right: 300.83px;
 }
+
 .org-name {
     position: absolute;
     left: -515px;
     bottom: -40px;
     width: 665px;
-    font-size: 23pt;
+    font-size: 1.92em;
     height: 45px;
     background-color: #FFCA28;
     font-weight: bold;
     text-align: center;
     color: black;
 }
+
 .org-website {
     position: absolute;
     left: -515px;
@@ -231,9 +233,10 @@
     width: 275px;
     color: black;
     height: 40px;
-    font-size: 20pt;
+    font-size: 1.6em;
     font-weight: bold;
 }
+
 .org-email {
     position: absolute;
     left: -85px;
@@ -241,11 +244,12 @@
     width: 250px;
     height: 40px;
     color: black;
-    font-size: 19pt;
+    font-size: 1.5em;
     font-weight: bold;
 }
+
 .contact {
-    font-size: 24px;
+    font-size: 1.5em;
     color: black;
     position: absolute;
     bottom: 230px;
@@ -289,7 +293,6 @@
     top: 370px;
     width: 618px;
     height: 50px;
-    /* font-weight: bold; */
     font-size: 1em;
     text-align: center;
     color: white;
@@ -310,9 +313,6 @@
     text-align: left;
 }
 
-
-
-
 /* Features */
 .features {
     position: absolute;
@@ -329,120 +329,136 @@
     height:37.8px;
 	font-weight: 200;
     text-align: left;
-    font-size: 18px;
+    font-size: 1.5em;
 }
+
 .feature-name {
     position: relative;
     font-weight: 100;
     margin-left: 49.13px;
     top: -68.03px;
 }
+
 .feature-name1 {
-    font-size: 31px;
+    font-size: 0.9em;
     position: absolute;
     top: 50.25px;
     left: 75.59px;
 }
+
 .feature-name2 {
-    font-size: 31px;
+    font-size: 0.9em;
     position: absolute;
     top: 100.46px;
     left: 20mm;
 }
+
 .feature-name3 {
-    font-size: 31px;
+    font-size: 0.9em;
     position: absolute;
     top: 150.66px;
     right: -7.56px;
 }
+
 .feature-name4 {
-    font-size: 31px;
+    font-size: 0.9em;
     position: absolute;
     top: 200.13px;
     left: 75.59px;
 }
+
 .feature-name5 {
-    font-size: 31px;
+    font-size: 0.9em;
     position: absolute;
     top: 250.93px;
     right: -90.71px;
 }
+
 .feature-name6 {
-    font-size: 31px;
+    font-size: 0.9em;
     position: absolute;
     top: 300.72px;
     left: 71.81px;
 }
+
 .feature-name7 {
-    font-size: 31px;
+    font-size: 0.9em;
     position: absolute;
     top: 350.52px;
     left: 71.81px;
 }
+
 .feature-imagee img{
     position: absolute;
-    left: 2mm;
-    top: 80mm;
-    width: 12mm;
-    height: 12mm;
+    left: 7.5px;
+    top: 302.3px;
+    width: 45.3px;
+    height: 45.35px;
 }
+
 .feature-image1 {
-    font-size: 31px;
+    font-size: 0.6em;
     position: absolute;
     top: 45.25px;
     left: 26.46px;
 }
+
 .feature-image2 {
-    font-size: 31px;
+    font-size: 0.6em;
     position: absolute;
     top: 100.24px;
     left: 26.46px;
 }
+
 .feature-image3 {
-    font-size: 31px;
+    font-size: 0.6em;
     position: absolute;
     top: 150.44px;
     left: 26.46px;
 }
+
 .feature-image4 {
-    font-size: 31px;
+    font-size: 0.6em;
     position: absolute;
     top: 200.35px;
     left: 26.46px;
 }
+
 .feature-image5 {
-    font-size: 31px;
+    font-size: 0.6em;
     position: absolute;
     top: 250.93px;
     right: 275.91px;
 }
+
 .feature-image6 {
-    font-size: 31px;
+    font-size: 0.6em;
     position: absolute;
     top: 300.72px;
     left: 22.68px;
 }
+
 .feature-image7 {
-    font-size: 31px;
+    font-size: 0.6em;
     position: absolute;
     top: 350.3px;
     left: 26.46px;
 }
+
 .feature {
     width: 340.16px;
     height: 30.24px;
     font-weight: 200;
     text-align: left;
-    font-size: 25px;
+    font-size: 2.09em;
 }
-
-
 
 /* Feature name */
 .feature-name {
     font-weight: 100;
-    margin-left: 13mm;
+    margin-left: 49.1px;
 }
+
 /* Feature image */
 .feature-image i {
     font-size: 2em;
@@ -454,20 +470,23 @@
     top: -10px;
     left: -35px;
 }
+
 /* Feature description */
 .feature-description {
     margin-top: 49.13px;
 }
+
 .terms-heading {
     position: absolute;
     left: 555px;
     bottom: 195px;
-    font-size: 20pt;
+    font-size: 1.67em;
     width: 345px;
     height: 53px;
     color: #ffd54f;
     font-weight: bold;
 }
+
 /* Terms */
 .terms {
     position: absolute;
@@ -479,18 +498,21 @@
     color: white;
     text-align: center;
 }
+
 .term-image1 {
     position: absolute;
     top: 0.56px;
     left: 20.57px;
     height: 21px;
 }
+
 .term-image2 {
     height: 22.68px;
     position: absolute;
     top: 13.46px;
     left: 19.57px;
 }
+
 .term-image3 {
     position: absolute;
     top: 25.35px;
@@ -504,24 +526,26 @@
     top: 826.53px;
     width: 345.75px;
     height: 50.59px;
-    font-size: 35px;
+    font-size: 2em;
     color: red;
     text-align: justify;
     font-weight: bolder;
 }
+
 .org-phone1 {
     height: 30px;
     position: absolute;
     left: 44.77px;
     top: -32.78px;
 }
+
 .org-phone i {
     font-size: 1.5em;
 }
 
 /* Services heading */
 .services-heading {
-    margin-top: 0%;
+    margin-top: 0px;
 }
 
 /* Services */
@@ -549,15 +573,17 @@
     margin-left: 71.81px;
     font-weight: bold;
     text-align: left;
-    font-size: 24px;
+    font-size: 1.5em;
     color: #FFDC5B;
 }
+
 .service-image {
     height: 60.83px;
     position: absolute;
     left: 0px;
     top: 40.8px;
 }
+
 /* Service image */
 .service-image i {
     font-size: 2em;
@@ -568,7 +594,7 @@
     margin-top: 71.81px;
     position: absolute;
     text-align: left;
-    font-size: 18px;
+    font-size: 1.1em;
     color: #ffffff;
     margin-left: 71.81px;
     text-wrap: balance;
