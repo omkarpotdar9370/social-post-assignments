@@ -1,0 +1,726 @@
+.socialpost-wrapper {
+    position: relative;
+    width: 1024px;
+    height: 1024px;
+    background: #ffffff;
+    border: 1px solid;
+    overflow: hidden;
+}
+.socialpost-background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*background*/
+.pentagon {
+    position: absolute;
+    top: 300px;
+    width: 560px;
+    height: 550px;
+    background: lightblue;
+    clip-path: polygon(50% 0, 100% 38%, 100% 100%, 0% 100%, 0 38%);
+    transform: rotate(90deg);
+    z-index: 1;
+}
+
+.pentagon img {
+    width: 560px;
+    height: 550px;
+    transform: rotate(-90deg);
+    opacity: 0.5;
+    filter: brightness(0.5);
+}
+
+.pentagon-back {
+    position: absolute;
+    top: 280px;
+    width: 600px;
+    height: 590px;
+    background: rgb(223, 241, 247);
+    clip-path: polygon(50% 0, 100% 38%, 100% 100%, 0% 100%, 0 38%);
+    transform: rotate(90deg);
+}
+
+
+.blue-top1 {
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    width: 850px;
+    height: 40px;
+    background: #0188d6;
+    transform: skew(30deg);
+    z-index: 3;
+}
+
+.blue-top2 {
+    position: absolute;
+    top: 0px;
+    right: 70px;
+    width: 80px;
+    height: 40px;
+    background: #0188d6;
+    transform: skewX(-30deg);
+    z-index: 3;
+}
+
+.white-top-left {
+    position: absolute;
+    top: 0px;
+    right: -35px;
+    width: 300px;
+    height: 80px;
+    background: white;
+    transform: skewX(40deg);
+    z-index: 2;
+}
+
+.top-right1 {
+    position: absolute;
+    top: 0px;
+    right: 9px;
+    width: 50px;
+    height: 200px;
+    background: #7bbee9;
+    transform: skewX(20deg);
+}
+
+.top-right2 {
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    width: 50px;
+    height: 200px;
+    background: #9dcdf0;
+    transform: skewX(20deg);
+}
+
+.top-right3 {
+    position: absolute;
+    top: 0px;
+    right: 200px;
+    width: 50px;
+    height: 200px;
+    background: #b6daf4;
+    transform: skewX(20deg);
+}
+
+.top-right4 {
+    position: absolute;
+    top: 0px;
+    right: 295px;
+    width: 45px;
+    height: 200px;
+    background: #d2e7f8;
+    transform: skewX(20deg);
+} 
+
+.bottom-left-1 {
+    position: absolute;
+    bottom: 0px;
+    left: 9px;
+    width: 50px;
+    height: 200px;
+    background: #0292d8;
+    transform: skewX(-20deg);
+    z-index: 1;
+}
+
+.bottom-left-2 {
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+    width: 50px;
+    height: 200px;
+    background: #26a4df;
+    transform: skewX(-20deg);
+    z-index: 1;
+}
+
+.bottom-left-3 {
+    position: absolute;
+    bottom: 0px;
+    left: 190px;
+    width: 50px;
+    height: 200px;
+    background: #57b1e5;
+    transform: skewX(-20deg);
+    z-index: 1;
+}
+
+.bottom-left-4 {
+    position: absolute;
+    bottom: 0px;
+    left: 280px;
+    width: 45px;
+    height: 200px;
+    background: #7abfe8;
+    transform: skewX(-20deg);
+    z-index: 1;
+}
+
+.bottom-left-5 {
+    position: absolute;
+    bottom: 0px;
+    left: 360px;
+    width: 45px;
+    height: 200px;
+    background: #99cdef;
+    transform: skewX(-20deg);
+}
+
+.bottom-left-6 {
+    position: absolute;
+    bottom: 0px;
+    left: 445px;
+    width: 45px;
+    height: 200px;
+    background: #b7d9f2;
+    transform: skewX(-20deg);
+}
+
+/* .bottom-left-7 {
+    position: absolute;
+    bottom: 0px;
+    left: 530px;
+    width: 45px;
+    height: 200px;
+    background:#d1e8f9;
+    transform: skewX(-20deg);
+
+} */
+
+/* Container */
+.content {
+    max-width: 297mm; /* A4 paper width */
+    margin: 0 auto;
+    padding: 10mm;
+}
+/* Organization logo */
+.org-logo {
+    position: absolute;
+    bottom: 929.76px;
+    left: 763.46px;
+    width: 226.77px;
+    height: 113.39px;  
+}
+.org-logo img {
+    position: absolute;
+    top: 109.9px;
+    left: -92.44px;
+    width: 340px;
+    height: 107px;
+}
+/* Organization name */
+.org-name h2 {
+    position: absolute;
+    top: 390px;
+    left: 460px;
+    height: 75.59px;
+    width: 529.13px;
+    font-size: 1.5em;
+    color: white;
+    z-index: 1;
+}
+.org-address {
+    position: absolute;
+    top: 750px;
+    left: 0px;
+    width: 415.75px;
+    height: 98.27px;
+    text-wrap: balance;
+    
+}
+.org-address p {
+    position: absolute;
+    top: 14.8px;
+    margin-left: 115.59px;
+    text-align: left;
+    font-size: 1em;
+    font-weight: bolder;
+    color: #ffffff;
+    z-index: 1;
+}
+/* Organization email, phone, fax, and website */
+.org-email,
+.org-alternate-email,
+.org-phone,
+.org-alternate-phone,
+.org-fax,
+.org-website {
+    margin: 18.9px 0;
+    
+}
+.org-email {
+    position: absolute;
+    top: 368.48px;
+    right: 213.03px;
+    width: 196.98px;
+    height: 18.9px;
+    font-size: 1.3em;
+    color: #fff;
+}
+.org-email i {
+    font-size: 1.5em;
+}
+.org-website {
+    position: absolute;
+    top: 368.48px;
+    right: -15px;
+    height: 18.9px;
+    width: 188.98px;
+    font-size: 1.3em;
+    color: #fff;
+}
+.org-website i {
+    font-size: 1.5em;
+}
+.org-phone {
+    position: absolute;
+    top: 875.53px;
+    right: 7.56px;
+    width: 415.75px;
+    height: 75.59px;
+    font-size: 2.62em;
+    font-weight: bolder;
+    color: red;
+    text-align: justify;
+}
+.org-phone1 {
+    position: absolute;
+    top: -3.78px;
+    right: 175.77px;
+    height: 71px;
+}
+.org-phone i {
+    font-size: 1.5em;
+}
+/* Header background image */
+.header-background-image img {
+    width: 100%;
+}
+/* Background image, image, alternate image */
+.background-image img,
+.image img,
+.alternate-image img {
+    width: 100%;
+}
+.background-image img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1021.25px;
+    height: 359px;
+}
+.image img{
+    position:absolute;
+    top: 0px;
+    left:0px;
+    width:453.54px;
+    height:113.39px;
+}
+/* Heading, sub-heading, description, punchlines, offerlines */
+.heading,
+.sub-heading,
+.description,
+.punchline1,
+.punchline2,
+.offerline1,
+.offerline2 {
+    margin: 5mm 0;
+}
+.punchline1{
+    position:absolute;
+    top:113.39px;
+    left:0px;
+    width:453.54px;
+    height:37.8px;
+    font-size: 2.25;
+    font-weight: bold;
+    text-align: center;
+    color:#ffffff;
+}
+.heading-first {
+    position: absolute;
+    top: 38.72px;
+    left: 70px;
+    width: 453.54px;
+    height: 113.39px;
+    text-align: left;
+    font-size: 3.5em;
+    font-weight: bolder;
+}
+.heading {
+    position: absolute;
+    top: 112.42px;
+    left: 70px;
+    width: 453.54px;
+    height: 113.39px;
+    text-align: left;
+    font-size: 3.5em;
+    font-weight: bolder;
+    line-height: 1;
+    color: #FFDC5B;
+}
+.sub-heading {
+    position: absolute;
+    top: 196.95px;
+    right: 63px;
+    width: 340.16px;
+    height: 37.8px;
+    font-size: 1.7em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.description {
+    position: absolute;
+    top: 249.31px;
+    right: 18.9px;
+    width: 388.8px;
+    height: 188.98px;
+    text-align: justify;
+    font-size: 1.2em;
+    z-index: 1;
+}
+
+/* Services heading */
+.services-heading {
+    margin-top: 0%;
+}
+
+/* Services */
+.services {
+    position: absolute;
+    top: 399.63px;
+    left: 25px;
+    width: 415.75px;
+    height: 222.99px;
+    color: #ffffff;
+    z-index: 1;
+}
+
+/* Service */
+.service {
+    width:340.16px;
+    height:37.8px;
+	
+}
+
+/* Service name */
+.service-name {
+    position: absolute;
+    margin-top: -84.22px;
+    margin-left: -17.19px;
+    width: 342px;
+    height: 77px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: #FFDC5B;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.service-image {
+    position: absolute;
+    top: 8.8px;
+    left: -15.12px;
+    height: 105.83px;
+}
+/* Service image */
+.service-image i {
+    font-size: 2em;
+}
+
+/* Service description */
+.service-description {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 71.81px;   
+    font: size 1.08em;
+    text-align: left;
+    color: #ffffff;
+    text-wrap: balance;
+}
+.contact-us {
+    position: absolute;
+    top: 914.76px;
+    left: -184.87px;
+    color: white;
+    text-align: center;
+    size: 67px;
+    border-right: 67pt solid transparent;
+    border-top: 34.75pt solid #FFDC5B;
+    border-left: 379pt solid #FFDC5B;
+    z-index: 1;
+}
+.contact-us .p {
+    text-emphasis-color: black;
+}
+
+.contact {
+    font-size: 1.87em;
+    position: absolute;
+    bottom: 63px;
+    left: 68px;
+    color: black;
+    z-index: 1;
+}
+
+.features-heading {
+    position: absolute;
+    top: 511px;
+    left: 655px;
+    font-size: 2em;
+    text-align: left;
+    border-bottom: 7px solid yellow;
+}
+.feature-imagee{
+    position: absolute;
+    top: 515px;
+    right: 377px;
+}
+.features{
+    position: absolute;
+    top: 567px;
+    right: 145px;
+    z-index: 1;
+}
+
+
+
+.feature{
+    position: relative;
+    left: 75px;
+    margin-bottom: 10px;
+    display: flex;
+    /* font-size: 1em; */
+    /* position: absolute; */
+}
+  .feature-image1, .feature-image2, .feature-image3, .feature-image4, .feature-image5, .feature-image6, .feature-image7{
+    position: absolute;
+    left: -52px;
+    font-size: 2em;
+    /* margin-left: 5px; */
+  }
+
+  .feature-name1, .feature-name2, .feature-name3 .feature-name4, .feature-name5, .feature-name6, .feature-name7 {
+    /* font-size: 1.2em; */
+    /* position: absolute; */
+    position: relative;
+    font-size: 1.5em;
+
+  }
+
+
+/* Terms heading */
+.terms-heading {
+    position: absolute;
+    top: 548.18px;
+    left: -78px;
+    height: 37.8px;
+    width: 415.75px;
+    margin-left: 84.59px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFDC5B;
+    z-index: 1;}
+
+/* Terms */
+.terms {
+    position: absolute;
+    top: 584px;
+    left: 32px;
+    width: 415.75px;
+    height: 151.18px;
+    z-index: 1;
+}
+.term-image1 {
+    position: absolute;
+    top: 7.56px;
+    left: 41.57px;
+    height: 21px;
+}
+.term-image2 {
+    position: absolute;
+    top: 26.46px;
+    left: 41.57px;
+    height: 22.68px;
+}
+.term-image3 {
+    position: absolute;
+    top: 45.35px;
+    left: 41.57px;
+    height: 25px;
+}
+    
+
+/* Term */
+.term {
+    font-weight:100;
+    margin-top:18.9px;
+   
+}
+.icon {
+    font-size: 1.5em;
+    margin-right: 10px;
+  }
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.term-name {
+    margin-top: -3.56px;
+    margin-left: 105.83px;
+    font-size: 1.08em;
+    text-align: left;
+    color: #ffffff; 
+    text-wrap: balance;
+    /* position: absolute; */
+  
+}
+.bi-wifi::before {
+    position: absolute;
+    top: -7.56px;
+    left: 3.78px;
+    content: "\f61c";
+    
+}
+.fa-list:before {
+    position: absolute;
+    top: 283.46px;
+    left: -600.94px;
+    color: black;
+    content: "\f03a";
+   
+}
+.term-image-MEMBERSHIP {
+    position: absolute;
+    top: 12px;
+    left: -27px;
+    height: 105.83px;
+}
+
+
+.bi-star:before {
+    position: absolute;
+    top: -52.91px;
+    left: -366.61px;
+    content: "\f005";
+}
+.fa-star:before {
+    position: absolute;
+    top: -41.57px;
+    left: -597.17px;
+    color: #FFDC5B;
+    content: "\f005";   
+}
+.location-icon {
+    color: #007bff; /* Change color */
+    font-size: 1.8em; /* Adjust size */
+    margin-right: 8px; /* Space between icon and text */
+}
+
+
+        /* Base class for all icons */
+        .icon {
+            width: 24px; /* Width of the icon */
+            height: 24px; /* Height of the icon */
+            display: inline-block; /* Ensure it behaves like an inline element but allows setting width/height */
+            background-image: url('icons.png'); /* Path to your sprite image */
+            background-size: cover; /* Ensure the entire image is used */
+            margin-right: 10px; /* Add space between the icon and the text */
+        }
+
+        /* Specific class for the "Free MCQ Bank (AI Based)" icon */
+        .icon-mcq-bank {
+            background-position: -48px -24px; /* Adjust according to the position of your icon in the sprite */
+        }
+
+        /* Class for aligning icons and text */
+        .icon-container {
+            display: flex; /* Use flexbox to align items */
+            align-items: center; /* Center items vertically */
+            margin-bottom: 10px; /* Add space between each row */
+        }
+
+/* Term image */
+.term-image i {
+    font-size: 2em;
+}
+.fa-map-marker-alt:before {
+    position: absolute;
+    top: 188.98px;
+    left: 7.56px;
+    font-size: 4em;
+    content: "\f3c5";  
+}
+.fa-dollar-sign:before {
+    position: absolute;
+    top: 26.46px;
+    left: 11.34px;
+    font-size: 4.25em;
+    color: #FFDC5B;
+    content: "\f155";
+    
+   
+}
+.fa-telegram:before {
+    position: absolute;
+    top: -200.31px;
+    left: 3.78px;
+    font-size: 4.25em;
+    color: #FFDC5B;
+    content: "\f155";   
+}
+.Location {
+    position: absolute;
+    margin-top: -404.22px;
+    margin-left: 7.81px;
+    width: 380px;
+    height: 40px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: #FFDC5B;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.Location-imagee {
+    position: absolute;
+    top: 762.28px;
+    left: 5px;
+    width: 93.59px;
+    z-index: 1;
+}
+.fa-map-marker-alt:before {
+    position: absolute;
+    top: 188.98px;
+    left: 7.56px;
+    font-size: 4.01em;
+    content: "\f3c5";
+    color: #FFDC5B;
+}
+.footer {
+    position: absolute;
+    top: 382.48px;
+    left: -49px;
+    width: 1069.61px;
+    height: 49.13px;
+    background-color: #0188d6;
+    
+}
+
+/* Term description */
+.term-description {
+    margin-top: 18.9px;
+}
