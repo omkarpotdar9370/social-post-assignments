@@ -1,13 +1,12 @@
 
 .socialpost-wrapper {
     overflow: hidden;
-    width: 1024px;
-    height: 1024px;
+    width: 1021px;
+    height: 1021px;
     display: flex;
-
     position: relative;
     background: white;
-	border: 2px solid black;
+    border: 1mm solid black
 }
 .socialpost-background {
     width: 100%;
@@ -19,15 +18,15 @@
 
 }
 .socialpost-background .rect1{
-	left: 204pt;
-    margin-top: 316.31pt;
-    width: 776.775pt;
-    height: 124.5pt;
+    left: 76mm;
+    margin-top: 100mm;
+    width: 1035.5905512px;
+    height: 200.31496063px;
     background-color: orange;
     transform: rotate(90deg);
     position: absolute;
     top: 0pt;
-	z-index:1;
+    z-index: 1;
 }
 
 /* Global styles */
@@ -39,7 +38,7 @@ body {
 
 /* Container */
 .content {
-    max-width: 297mm; /* A4 paper width */
+    max-width: 1122.519685px; /* A4 paper width */
     margin: 0 auto;
     padding: 10mm;
 }
