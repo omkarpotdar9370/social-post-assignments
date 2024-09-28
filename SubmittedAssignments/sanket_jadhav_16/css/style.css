@@ -1,0 +1,800 @@
+.socialpost-wrapper {
+    overflow: hidden;
+    width: 1024px;
+    height: 1024px;
+    position: relative;
+    background: #db0808;
+}
+.socialpost-background {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background: #ffffff;
+}
+/* Global styles */
+.shape1{
+width: 462px;
+    height: 137px;
+    border-top-left-radius: 6.25em;
+    border-top-right-radius: 7.188em;
+    border-bottom-left-radius: 6.25em;
+    border-bottom-right-radius: 6.25em;
+    top: 68.031px;
+    left: 66.141px;
+    position: absolute;
+    transform: rotate(135deg);
+    z-index: 2;
+    background: linear-gradient(to left, #f2675a, #feb47b);
+    box-shadow: -9px -8px 10px black;
+}
+.shape2{
+	width: 1024px;
+    height: 1024px;
+    border: 1.25em solid #7e288a;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 3;
+}
+
+.shape3{
+width: 680px;
+    height: 460px;
+    background-color: #67256d;
+    border-top-left-radius: 8.375em;
+    border-top-right-radius: 15.313em;
+    border-bottom-left-radius: 6.25em;
+    border-bottom-right-radius: 15.313em;
+    top:3.779px;
+    left: 466.771px;
+    position: absolute;
+    transform: rotate(134deg);
+    z-index: 0;
+	box-shadow: 0px 2px 10px black;
+}
+
+.shape4{
+	width: 383px;
+    height: 69px;
+    border-top-left-radius:6.25em;
+    border-top-right-radius: 7.188em;
+    border-bottom-left-radius: 6.25em;
+    border-bottom-right-radius: 6.25em;
+    top: -18.897px;
+    left: 54.803px;
+    position: absolute;
+    transform: rotate(135deg);
+    z-index: 2;
+    background: linear-gradient(to left, #652667, #68246e);
+    box-shadow: 3px -11px 12px #6e6d6d;
+}
+
+.shape5{
+	width: 383px;
+    height: 69px;
+    border-top-left-radius: 6.25em;
+    border-top-right-radius: 7.188em;
+    border-bottom-left-radius: 6.25em;
+    border-bottom-right-radius: 6.25em;
+    top: -18.897px;
+    left: 319.370px;
+    position: absolute;
+    transform: rotate(135deg);
+    z-index: 1;
+    background: linear-gradient(to left, #652667, #68246e);
+    box-shadow: 3px -11px 12px #6e6d6d;
+}
+
+.shape6{
+	width: 705px;
+    height: 93px;
+    box-sizing: border-box;
+    position: absolute;
+    top:170.078px;
+    left: -238.110px;
+    transform: rotate(-46deg);
+    background-color: #d3c6d7;
+}
+ .shape7{
+    width: 437px;
+    height: 121px;
+    border-top-left-radius: 6.25em;
+    border-top-right-radius: 6.313em;
+    border-bottom-left-radius: 6.25em;
+    border-bottom-right-radius: 6.25em;
+    top: 865.511px;
+    left: 542.362px;
+    position: absolute;
+    transform: rotate(135deg);
+    z-index: 2;
+    background: linear-gradient(to left, #f2675a, #feb47b);
+    box-shadow: -2px -8px 10px black;
+}
+
+.shape8{
+	width: 383px;
+    height: 69px;
+    border-top-left-radius: 6.25em;
+    border-top-right-radius: 7.188em;
+    border-bottom-left-radius: 6.25em;
+    border-bottom-right-radius: 6.25em;
+    top: 990.236px;
+    left: 633.070px;
+    position: absolute;
+    transform: rotate(135deg);
+    z-index: 2;
+    background: linear-gradient(to left, #652667, #68246e);
+    box-shadow: 3px -11px 12px #6e6d6d;
+}
+
+.shape9{
+	width: 383px;
+    height: 69px;
+    border-top-left-radius: 6.25em;
+    border-top-right-radius: 7.188em;
+    border-bottom-left-radius: 6.25em;
+    border-bottom-right-radius:6.25em;
+    top:986.456px;
+    left: 391.181px;
+    position: absolute;
+    transform: rotate(135deg);
+    z-index: 1;
+    background: linear-gradient(to left, #652667, #68246e);
+    box-shadow: 6px 4px 12px #6e6d6d;
+}
+.shape10{
+	width: 877px;
+    height: 93px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 691.653px;
+    left: 332.598px;
+    transform: rotate(-45deg);
+    background-color: #f4dcd8;
+}
+.shape11{
+	width: 877px;
+    height: 93px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 691.653px;
+    left: 593.385px;
+    transform: rotate(-45deg);
+    background-color: #f4dcd8;
+}
+	
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Container */
+.content {
+    max-width: 1122.519px; /* A4 paper width */
+    margin: 0 auto;
+    padding: 37.795px;
+}
+/* Organization logo */
+.org-logo {
+    position: absolute;
+    left: 763.46px;
+    width: 226.77px;
+    height: 113.39px;
+    bottom: 929.76px;
+}
+.org-logo img {
+    top: 105.9px;
+    left: 133.56px;
+    height: 40%;
+    width: 50%;
+    position: absolute;
+}
+/* Organization name */
+.org-name h2 {
+    color: #fff;
+    position: absolute;
+    right: 328.98px;
+    top: -629px;
+    z-index: 5;
+    height: 52.59px;
+    width: 674.13px;
+    font-size: 2em;
+    background-color: #62256a;
+}
+.org-address {
+    position: absolute;
+    background-color: black;
+    right: 0px;
+    top: 739.72px;
+    width: 415.75px;
+    height: 98.27px;
+    z-index: 2;
+	
+}
+.org-address p {
+    top: 37.8px;
+    margin-left: 75.59px;
+    position: absolute;
+    text-align: left;
+    font-size: 0.75em;
+    color: #ffffff;
+    font-weight: bolder;
+}
+/* Organization email, phone, fax, and website */
+.org-email,
+.org-alternate-email,
+.org-phone,
+.org-alternate-phone,
+.org-fax,
+.org-website {
+    margin: 18.9px 0;
+}
+.org-email {
+    font-size:1.25em;
+    color: white;
+    position: absolute;
+    right: 592px;
+    bottom: -268.65px;
+    height: 18.9px;
+    width: 188.98px;
+    z-index: 3;
+}
+.org-email i {
+    font-size: 1.5em;
+}
+.org-website {
+   font-size: 1.25em;
+    color: white;
+    position: absolute;
+    right: 791px;
+    bottom: -267.65px;
+    height: 18.9px;
+    width: 188.98px;
+    z-index: 3;
+}
+.org-website i {
+    font-size: 1.5em;
+}
+.org-phone {
+    position: absolute;
+    right: 403.56px;
+    top: 900.53px;
+    width: 415.75px;
+    height: 75.59px;
+    font-size: 1.375em;
+    color: black;
+    text-align: justify;
+    z-index: 2;
+}
+.org-phone1 {
+    height: 26px;
+    position: absolute;
+    right: 187.77px;
+    top: 3.22px;
+    z-index: 1;
+}
+.org-phone i {
+    font-size: 1.5em;
+}
+/* Header background image */
+.header-background-image img {
+    width: 100%;
+}
+/* Background image, image, alternate image */
+.background-image img,
+.image img,
+.alternate-image img {
+    width: 100%;
+}
+.background-image img {
+    height: 440px;
+    position: absolute;
+    left: 512px;
+    top: 90px;
+    width: 440px;
+    border-radius: 15.725em;
+}
+.image img{
+    position: absolute;
+    left: 764px;
+    top: 3px;
+    width: 246.54px;
+    height: 81.39px;
+}
+/* Heading, sub-heading, description, punchlines, offerlines */
+.heading,
+.sub-heading,
+.description,
+.punchline1,
+.punchline2,
+.offerline1,
+.offerline2 {
+    margin:18.897px 0;
+}
+.punchline1{
+    position:absolute;
+    left:0px;
+    top:113.39px;
+    width:453.54px;
+    height:37.8px;
+    font-weight: bold;
+    text-align: center;
+    font-size:2.25em;
+   color:#ffffff;
+}
+.heading-first {
+   position: absolute;
+    left: 27.13px;
+    top: 294.72px;
+    width: 453.54px;
+    height: 113.39px;
+    text-align: left;
+    font-size: 3.313em;
+    font-weight: 500;
+    color: #522d5f;
+    z-index: 2;
+}
+.heading {
+   position: absolute;
+   left: 29.91px;
+    top: 348.42px;
+    width: 453.54px;
+    height: 113.39px;
+    text-align: left;
+    font-size: 2.438em;
+    font-weight: bolder;
+    line-height: 1;
+    color: #ed9231;
+    z-index: 2;
+    right: 78px;
+}
+.sub-heading {
+  position: absolute;
+    left: 30.59px;
+    top: 395.95px;
+    width: 340.16px;
+    height: 37.8px;
+    text-align: left;
+    font-size: 1.813em;
+    color: #5f2462;
+}
+
+.description {
+    position: absolute;
+    left: 31.9px;
+    top: 449.31px;
+    width: 517.8px;
+    height: 188.98px;
+    text-align: justify;
+    font-size: 1.063em;
+}
+/* Services heading */
+.services-heading {
+    margin-top: 0%;
+}
+
+/* Services */
+.services {
+    position: absolute;
+    background-color: black;
+    right: 4px;
+    top: 477.63px;
+    width: 411.75px;
+    height: 126.99px;
+    color: #ffffff;
+
+}
+
+/* Service */
+.service {
+    width:340.16px;
+    height:37.8px;
+	
+}
+
+/* Service name */
+.service-name {
+   margin-top: 3.78px;
+    position: absolute;
+    margin-left: 71.81px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 1em;
+    color: #FFDC5B;
+}
+.service-image {
+    height: 66.83px;
+    position: absolute;
+    left: -9.12px;
+    top: 18.8px;
+}
+/* Service image */
+.service-image i {
+    font-size: 2em;
+}
+
+/* Service description */
+.service-description {
+    margin-top: 34.81px;
+    position: absolute;
+    text-align: left;
+    font-size: 0.875em;
+    color: #ffffff;
+    margin-left: 71.81px;
+    text-wrap: balance;
+}
+.contact-us {
+    color: white;
+    left: -184.87px;
+   
+    text-align: center;
+    top: 914.76px;
+    position: absolute;
+    /* background-color: black; */
+    size: 67px;
+    border-right: 5.604em solid transparent;
+    border-top: 2.906em solid #FFDC5B;
+    border-left: 31.701em solid #FFDC5B;
+}
+.contact-us .p {
+    text-emphasis-color: black;
+}
+
+.contact {
+    font-size: 1.875em;
+    color: black;
+    position: absolute;
+    bottom: 63px;
+    left: 31px;
+}
+
+/* Features heading */
+.features-heading {
+    position: absolute;
+    left: 74.59px;
+    top: 604.84px;
+    width: 340.16px;
+    height: 37.8px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 28px;
+}
+
+
+
+
+/* Features */
+.features {
+	position:absolute;
+    left:0px;
+    top:718.11px;
+    width:340.16px;
+    height:264.57px;
+}
+
+/* Feature */
+.feature {
+    width:340.16px;
+    height:37.8px;
+	font-weight: 200;
+    text-align: left;
+    font-size:1.125em;
+}
+.feature-name {
+    position: relative;
+    font-weight: 100;
+    margin-left: 49.13px;
+    top: -68.03px;
+}
+.feature-name1 {
+    font-size: 1.1em;
+    position: absolute;
+    top: -66.25px;
+    left: 75.590px;
+}
+.feature-name2 {
+    font-size: 1.1em;
+    position: absolute;
+    top: -30.46px;
+    left: 75.590px;
+}
+.feature-name3 {
+    font-size: 1.1em;
+    position: absolute;
+    top: 6.34px;
+    right: 25.44px;
+}
+.feature-name4 {
+    font-size: 1.1em;
+    position: absolute;
+    top: 45.13px;
+    left: 72.59px;
+}
+.feature-name5 {
+    font-size: 1.1em;
+    position: absolute;
+    top: 81.93px;
+    right: -48.71px;
+}
+.feature-name6 {
+    font-size: 1.1em;
+    position: absolute;
+    top: 120.72px;
+    left: 71.81px;
+}
+.feature-name7 {
+    font-size: 1.1em;
+    position: absolute;
+    top: 156.52px;
+    left: 71.81px;
+}
+.feature-imagee {
+    font-size: 1.938em;
+    position: absolute;
+    top: 595.5px;
+    left: 28.24px;
+}
+.feature-image1 {
+    font-size: 1.938em;
+    position: absolute;
+    top: -89.25px;
+    left: 26.46px;
+}
+.feature-image2 {
+    font-size: 1.938em;
+    position: absolute;
+    top: -53.24px;
+    left: 26.46px;
+}
+.feature-image3 {
+    font-size: 1.938em;
+    position: absolute;
+    top: -16.44px;
+    left: 26.46px;
+}
+.feature-image4 {
+    font-size: 1.938em;
+    position: absolute;
+    top: 20.35px;
+    left: 26.46px;
+}
+.feature-image5 {
+    font-size: 1.938em;
+    position: absolute;
+    top: 58.93px;
+    right: 280.91px;
+}
+.feature-image6 {
+    font-size: 1.938em;
+    position: absolute;
+    top: 96.72px;
+    left: 25.68px;
+}
+.feature-image7 {
+    font-size: 1.938em;
+    position: absolute;
+    top: 131.3px;
+    left: 26.46px;
+}
+.feature {
+    width: 340.16px;
+    height: 30.24px;
+    font-weight: 200;
+    text-align: left;
+    font-size: 25px;
+}
+
+
+
+/* Feature name */
+.feature-name {
+    font-weight: 100;
+    margin-left: 49.133px;
+}
+/* Feature image */
+.feature-image i {
+    font-size: 2em;
+}
+
+/* Feature description */
+.feature-description {
+    margin-top: 49.13px;
+}
+
+/* Terms heading */
+.terms-heading {
+    position: absolute;
+    top: 608.18px;
+    height: 37.8px;
+    right: 0px;
+    width: 415.75px;
+    font-weight: bold;
+    margin-left: 75.59px;
+    text-align: center;
+    font-size: 22px;
+    background-color: black;
+    color: #FFDC5B;
+	
+}
+
+/* Terms */
+.terms {
+    position: absolute;
+    background-color: black;
+    right: 2px;
+    top: 646.98px;
+    width: 415.75px;
+    height: 93.18px;
+	
+}
+.term-image1 {
+    position: absolute;
+    top: 0.56px;
+    left: 39.57px;
+    height: 21px;
+}
+.term-image2 {
+    height: 22.68px;
+    position: absolute;
+    top: 16.46px;
+   left: 39.57px;
+}
+.term-image3 {
+    position: absolute;
+    top: 31.35px;
+    left: 40.57px;
+    height: 25px;
+}
+    
+
+/* Term */
+.term {
+   font-weight: 100;
+    margin-top: 14.9px;
+}
+.icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.term-name {
+    text-align: left;
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 105.83px;
+    text-wrap: balance;
+    margin-top: -15.56px
+}
+.bi-wifi::before {
+    content: "\f61c";
+    position: absolute;
+    left: 3.78px;
+    top: -7.56px;
+}
+.fa-list:before {
+    color: black;
+    content: "\f03a";
+    position: absolute;
+    left: -600.94px;
+    top: 283.46px;
+}
+.term-image-MEMBERSHIP {
+   height: 62.83px;
+    position: absolute;
+    top: 7px;
+    left: -16px;
+}
+
+
+.bi-star:before {
+    content: "\f005";
+    position: absolute;
+    top: -52.91px;
+    left: -366.61px;
+}
+.fa-star:before {
+    top: -41.57px;
+    left: -597.17px;
+    content: "\f005";
+    position: absolute;
+    color: #FFDC5B;
+}
+.location-icon {
+    color: #007bff; /* Change color */
+    font-size: 24px; /* Adjust size */
+    margin-right: 8px; /* Space between icon and text */
+}
+
+
+        /* Base class for all icons */
+        .icon {
+            width: 24px; /* Width of the icon */
+            height: 24px; /* Height of the icon */
+            display: inline-block; /* Ensure it behaves like an inline element but allows setting width/height */
+            background-image: url('icons.png'); /* Path to your sprite image */
+            background-size: cover; /* Ensure the entire image is used */
+            margin-right: 10px; /* Add space between the icon and the text */
+        }
+
+        /* Specific class for the "Free MCQ Bank (AI Based)" icon */
+        .icon-mcq-bank {
+            background-position: -48px -24px; /* Adjust according to the position of your icon in the sprite */
+        }
+
+        /* Class for aligning icons and text */
+        .icon-container {
+            display: flex; /* Use flexbox to align items */
+            align-items: center; /* Center items vertically */
+            margin-bottom: 10px; /* Add space between each row */
+        }
+
+/* Term image */
+.term-image i {
+    font-size: 2em;
+}
+.fa-map-marker-alt:before {
+    font-size: 64.25px;
+    top: 188.98px;
+    left: 7.56px;
+    content: "\f3c5";
+    position: absolute;
+}
+.fa-dollar-sign:before {
+    color: #FFDC5B;
+    left: 11.34px;
+    top: 26.46px;
+    content: "\f155";
+    position: absolute;
+    font-size: 68.03px;
+}.fa-telegram:before {
+    color: #FFDC5B;
+    left: 3.78px;
+    top: -200.31px;
+    content: "\f155";
+    position: absolute;
+    font-size: 68.03px;
+}
+.Location {
+   position: absolute;
+    top: 745.72px;
+    left: 685.87px;
+    color: #FFDC5B;
+    font-size: 20px;
+	z-index: 2;
+}
+.Location-imagee {
+    width: 51.59px;
+    position: absolute;
+    top: 756.28px;
+    right: 379.83px;
+    z-index: 2;
+}
+.fa-map-marker-alt:before {
+    font-size: 64.25px;
+    top: 188.98px;
+    left: 7.56px;
+    content: "\f3c5";
+    position: absolute;
+    color: #FFDC5B;
+}
+.footer {
+    position: absolute;
+    background-color: #2949c9;
+    height: 37.8px;
+    left: -604.72px;
+    top: 317.48px;
+    width: 1069.61px;
+    height: 49.13px;
+}
+
+
+
+/* Term description */
+.term-description {
+    margin-top: 18.9px;
+}
+
