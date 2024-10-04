@@ -4,8 +4,8 @@
     height: 1024px;
     position: absolute;
     background: #376da7;
-    top: 20mm;
-    left: 184mm;
+    top: 75.590551181px;
+    left: 695.43307087px;
 }
 .socialpost-background {
     width: 94%;
@@ -13,8 +13,8 @@
     height: 93%;
     overflow: hidden;
     position: absolute;
-    top: 5mm;
-    left: 7mm;
+    top: 18.897637795px;
+    left: 26.456692913px;
 
 }
 /* Global styles */
@@ -26,8 +26,8 @@ body {
 
 .socialpost-background .skew-1{
     position: absolute;
-    left: -15mm;
-    top: 17mm;
+    left: -56.692913386px;
+    top: 64.251968504px;
     width: 370px;
     height: 306px;
     transform: skewX(-20deg);
@@ -36,11 +36,11 @@ body {
 
 .socialpost-background .skew-2{
     position: absolute;
-    left: 84mm;
-    top: 0mm;
+    left: 317.48031496px;
+    top: 0px;
     width: 379px;
     height: 420px;
-    border: 0.3mm sollid transparent;
+    border: 1.1338582677px sollid transparent;
     transform: skewX(-21deg);
     overflow: hidden;
     z-index: 3;
@@ -48,8 +48,8 @@ body {
 
 .socialpost-background .skew-2 .org-img{
     position: absolute;
-    left: -28mm;
-    top: 0mm;
+    left: -105.82677165px;
+    top: 0px;
     opacity: 0.5;
     transform: skewX(21deg);
     z-index: 2;
@@ -58,8 +58,8 @@ body {
 
 .socialpost-background .skew-3{
     position: absolute;
-    left: 186mm;
-    top: 0mm;
+    left: 702.99212598px;
+    top: 0px;
     width: 313px;
     height: 386px;
     transform: skewX(-21deg);
@@ -72,9 +72,9 @@ body {
 
 /* Container */
 .content {
-    max-width: 297mm; /* A4 paper width */
+    max-width: 1122.519685px; /* A4 paper width */
     margin: 0 auto;
-    padding: 10mm;
+    padding: 37.795275591px;
 }
 /* Organization logo */
 .org-logo {
@@ -107,7 +107,7 @@ body {
     background-color: #4CAF50;
     right: 37px;
     top: 805.72px;
-    border-radius: 10mm;
+    border-radius: 37.795275591px;
     width: 415.75px;
     height: 98.27px;
 }
@@ -207,7 +207,7 @@ body {
 .punchline2,
 .offerline1,
 .offerline2 {
-    margin: 5mm 0;
+    margin: 18.897637795px 0;
 }
 .punchline1{
     position:absolute;
@@ -257,10 +257,10 @@ body {
     height: 41.8px;
     font-weight: bold;
     text-align: left;
-    padding-left: 2mm;
-    padding-top: 0mm;
-    padding-right: 2mm;
-    padding-bottom: 9mm;
+    padding-left: 7.5590551181px;
+    padding-top: 0px;
+    padding-right: 7.5590551181px;
+    padding-bottom: 34.015748031px;
     font-size: 28px;
     z-index: 5;
     background-clip: border-box;
@@ -275,7 +275,7 @@ body {
     top: 346.31px;
     width: 487.8px;
     height: 188.98px;
-    padding: 5mm;
+    padding: 18.897637795px;
     text-align: justify;
     font-size: 19px;
     z-index: 3;
@@ -291,7 +291,7 @@ body {
 .services {
     position: absolute;
     background-color: #4CAF50;
-    border-radius: 10mm;
+    border-radius: 37.795275591px;
     right: 36px;
     top: 375.63px;
     width: 415.75px;
@@ -341,7 +341,6 @@ body {
 .contact-us {
     color: white;
     left: 26.13px;
-    /* right: 4mm; */
     text-align: center;
     top: 914.76px;
     position: absolute;
@@ -411,7 +410,7 @@ body {
     font-size: 31px;
     position: absolute;
     top: -53.46px;
-    left: 20mm;
+    left: 75.590551181px;
 }
 .feature-name3 {
     font-size: 31px;
@@ -504,7 +503,7 @@ body {
 /* Feature name */
 .feature-name {
     font-weight: 100;
-    margin-left: 13mm;
+    margin-left: 49.133858268px;
 }
 /* Feature image */
 .feature-image i {
@@ -525,10 +524,10 @@ body {
     width: 415.75px;
     font-weight: bold;
     margin-left: -4.41px;
-    border-top-left-radius: 10mm;
-    border-top-right-radius: 10mm;
-    border-bottom-left-radius: 0mm;
-    border-bottom-right-radius: 0mm;
+    border-top-left-radius: 37.795275591px;
+    border-top-right-radius: 37.795275591px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
     text-align: center;
     font-size: 28px;
     background-color: #4CAF50;
@@ -541,10 +540,10 @@ body {
     background-color: #4CAF50;
     right: 38px;
     top: 644.98px;
-    border-top-left-radius: 0mm;
-    border-top-right-radius: 0mm;
-    border-bottom-left-radius: 10mm;
-    border-bottom-right-radius: 10mm;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 37.795275591px;
+    border-bottom-right-radius: 37.795275591px;
     width: 415.75px;
     height: 151.18px;
 }

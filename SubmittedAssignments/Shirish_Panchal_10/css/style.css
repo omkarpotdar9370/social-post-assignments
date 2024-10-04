@@ -6,7 +6,7 @@
     display: flex;
     position: relative;
     background: white;
-    border: 1mm solid black
+    border: 3.7795275591px solid black
 }
 .socialpost-background {
     width: 100%;
@@ -18,8 +18,8 @@
 
 }
 .socialpost-background .rect1{
-    left: 76mm;
-    margin-top: 100mm;
+    left: 287px;
+    margin-top: 372px;
     width: 1035.5905512px;
     height: 200.31496063px;
     background-color: orange;
@@ -40,7 +40,7 @@ body {
 .content {
     max-width: 1122.519685px; /* A4 paper width */
     margin: 0 auto;
-    padding: 10mm;
+    padding: 37.795275591px;
 }
 /* Organization logo */
 .org-logo {
@@ -86,38 +86,35 @@ body {
     color: black;
     font-weight: bolder;
 }
-/* Organization email, phone, fax, and website */
-.org-email{
 
-}
 .org-alternate-email{
 	margin: 18.9px 0;
-	margin-top:10mm;
-	margin-left:10mm;
+	margin-top:37.795275591px;
+	margin-left:37.795275591px;
 }	
 .org-phone{
 	margin: 18.9px 0;
 	margin: 18.9px 0;
-	margin-top:10mm;
-	margin-left:10mm;
+	margin-top:37.795275591px;
+	margin-left:37.795275591px;
 }
 .org-alternate-phone{
 	margin: 18.9px 0;
 	margin: 18.9px 0;
-	margin-top:10mm;
-	margin-left:10mm;
+	margin-top:37.795275591px;
+	margin-left:37.795275591px;
 }	
 .org-fax{
 	margin: 18.9px 0;
 	margin: 18.9px 0;
-	margin-top:10mm;
-	margin-left:10mm;
+	margin-top:37.795275591px;
+	margin-left:37.795275591px;
 }
 .org-website {
     margin: 18.9px 0;
 	margin: 18.9px 0;
-	margin-top:10mm;
-	margin-left:10mm;
+	margin-top:37.795275591px;
+	margin-left:37.795275591px;
 }
 .org-email {
    font-size: 20px;
@@ -180,11 +177,11 @@ body {
     border: red;
     background-color: #FFFFFF;
     height: 302px;
-    -moz-border-radius: 75px;
-    -webkit-border-radius: 163px;
+    moz-border-radius: 75px;
+    webkit-border-radius: 163px;
     width: 279px;
-    margin-left: 176mm;
-    margin-top: -1mm;
+    margin-left: 665.19685039px;
+    margin-top: -3.7795275591px;
     position: absolute;
     z-index: 1;
 }
@@ -200,8 +197,8 @@ body {
     background-color: #FFFFFF;
     height: 971px;
     width: 1052px;
-    margin-left: -8mm;
-    margin-top: -1mm;
+    margin-left: -30.236220472px;
+    margin-top: -3.7795275591px;
     position: absolute;
     z-index: 0;
 }
@@ -214,7 +211,7 @@ body {
 .punchline2,
 .offerline1,
 .offerline2 {
-    margin: 5mm 0;
+    margin: 18.897637795px 0;
 }
 .punchline1{
     position:absolute;
@@ -332,15 +329,14 @@ body {
 .contact-us {
     color: white;
     left: -183.87px;
-    /* right: 4mm; */
     text-align: center;
     top: 847.76px;
     position: absolute;
     /* background-color: black; */
     size: 67px;
-    border-right: 88pt solid transparent;
-    border-top: 35.75pt solid #FFDC5B;
-    border-left: 379pt solid #FFDC5B;
+    border-right: 7.360833406941696em solid transparent;
+    border-top: 2.990338571570064em solid #FFDC5B;
+    border-left: 31.70177115035117em solid #FFDC5B;
 }
 .contact-us .p {
     text-emphasis-color: black;
@@ -406,7 +402,7 @@ body {
     font-size: 31px;
     position: absolute;
     top: -53.46px;
-    left: 20mm;
+    left: 75.590551181px;
 }
 .feature-name3 {
     font-size: 31px;
@@ -499,7 +495,7 @@ body {
 /* Feature name */
 .feature-name {
     font-weight: 100;
-    margin-left: 13mm;
+    margin-left: 49.133858268px;
 }
 /* Feature image */
 .feature-image i {
@@ -600,54 +596,6 @@ body {
     left: -598px;
 }
 
-/* .fa-desktop-alt:before, .fa-desktop:before {
-    content: "\f390";
-    position: absolute;
-    top: 46mm;
-    left: -98mm;
-}
-.fa-robot:before {
-    left: -99mm;
-    top: 55mm;
-    content: "\f544";
-    position: absolute;
-}
-.fa-book:before {
-    left: -97mm;
-    content: "\f02d";
-    position: absolute;
-    top: 6mm;
-}
-.fa-laptop:before {
-    top: 26mm;
-    left: -98mm;
-    content: "\f109";
-    position: absolute;
-}
-.fa-laptop2:before {
-    top: 26mm;
-    left: -98mm;
-    content: "\f109";
-    position: absolute;
-}
-.fa-chalkboard-teacher:before {
-    top: 16mm;
-    content: "\f51c";
-    position: absolute;
-    left: -99mm;
-}
-.fa-wifi:before {
-    top: -4mm;
-    left: -98mm;
-    content: "\f1eb";
-    position: absolute;
-}
-.fa-list-squares:before, .fa-list:before {
-    top: 36mm;
-    left: -98mm;
-    content: "\f03a";
-    position: absolute;
-} */
 .bi-star:before {
     content: "\f005";
     position: absolute;
@@ -668,27 +616,27 @@ body {
 }
 
 
-        /* Base class for all icons */
-        .icon {
-            width: 24px; /* Width of the icon */
-            height: 24px; /* Height of the icon */
-            display: inline-block; /* Ensure it behaves like an inline element but allows setting width/height */
-            background-image: url('icons.png'); /* Path to your sprite image */
-            background-size: cover; /* Ensure the entire image is used */
-            margin-right: 10px; /* Add space between the icon and the text */
-        }
+/* Base class for all icons */
+.icon {
+    width: 24px; /* Width of the icon */
+    height: 24px; /* Height of the icon */
+    display: inline-block; /* Ensure it behaves like an inline element but allows setting width/height */
+    background-image: url('icons.png'); /* Path to your sprite image */
+    background-size: cover; /* Ensure the entire image is used */
+    margin-right: 10px; /* Add space between the icon and the text */
+}
 
-        /* Specific class for the "Free MCQ Bank (AI Based)" icon */
-        .icon-mcq-bank {
-            background-position: -48px -24px; /* Adjust according to the position of your icon in the sprite */
-        }
+/* Specific class for the "Free MCQ Bank (AI Based)" icon */
+.icon-mcq-bank {
+    background-position: -48px -24px; /* Adjust according to the position of your icon in the sprite */
+}
 
-        /* Class for aligning icons and text */
-        .icon-container {
-            display: flex; /* Use flexbox to align items */
-            align-items: center; /* Center items vertically */
-            margin-bottom: 10px; /* Add space between each row */
-        }
+/* Class for aligning icons and text */
+.icon-container {
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 10px; /* Add space between each row */
+}
 
 /* Term image */
 .term-image i {
@@ -708,7 +656,8 @@ body {
     content: "\f155";
     position: absolute;
     font-size: 68.03px;
-}.fa-telegram:before {
+}
+.fa-telegram:before {
     color: #FFDC5B;
     left: 3.78px;
     top: -200.31px;
@@ -723,7 +672,7 @@ body {
     color: #FFDC5B;
     font-size: 24px;
     background: black;
-    width: 94mm;
+    width: 355.27559055px;
 }
 .Location-imagee {
    width: 28.59px;
